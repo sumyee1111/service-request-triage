@@ -4,7 +4,7 @@ A prototype that triages customer-service emails: it recommends a **category**, 
 
 > **All data is synthetic.** The 300 emails, companies and people are fictional. No real customer data was used.
 
-![SLA dashboard](images/sla_dashboard.png)
+![SLA dashboard](sla_dashboard.png)
 
 ## The problem
 
@@ -25,9 +25,9 @@ A company that sells and repairs office equipment receives about 40 service emai
 | `gen_tickets.py` | Script that generates the dataset (fixed random seed, so it reproduces the CSV exactly) |
 | `rules_v1.py` | Layer 1: keyword-rules classifier and evaluation |
 | `tickets_rules_v1_results.csv` | Rules predictions next to the correct labels |
-| `triage_assistant.html` | Source of the side-by-side demo page (rules vs AI) |
+| `Service Request Triage Assistant.html` | Source of the side-by-side demo page (rules vs AI) |
 | `SLA_Dashboard.xlsx` | Formula-driven Excel dashboard with editable what-if assumptions |
-| `images/` | Screenshots used in this README |
+| `sla_dashboard.png`, `case1_negation.png`, `case3_polite_complaint.png`, `case7_typos.png` | Screenshots used in this README |
 
 ## How it works
 
@@ -59,7 +59,7 @@ What the failures showed:
 
 | Rules flag a routine email as urgent | Rules under-prioritise a complaint | Rules cannot read heavy typos |
 |---|---|---|
-| ![Case 1](images/case1_negation.png) | ![Case 3](images/case3_polite_complaint.png) | ![Case 7](images/case7_typos.png) |
+| ![Case 1](case1_negation.png) | ![Case 3](case3_polite_complaint.png) | ![Case 7](case7_typos.png) |
 
 **What-if scenario (an assumption, not a result):** the dashboard lets you set how much faster the first response would be if urgent emails were recognised and routed immediately. With the example settings (P1 60% faster, P2 30% faster), overall SLA met would rise from 55.7% to 66.3%. These time savings are my assumptions and are not measured effects.
 
@@ -73,7 +73,7 @@ python rules_v1.py        # prints accuracy and writes tickets_rules_v1_results.
 
 No installation needed: both scripts also run in [Google Colab](https://colab.research.google.com) (upload the files, then run `!python rules_v1.py`).
 
-**Demo page:** [Service Request Triage Assistant](https://claude.ai/artifact/5Xg5qmiM6P3NUJkMe2vxVP). The AI panel needs a Claude sign-in; the rules panel works without it. Opening `triage_assistant.html` on its own shows the rules panel only.
+**Demo page:** [Service Request Triage Assistant](https://claude.ai/artifact/5Xg5qmiM6P3NUJkMe2vxVP). The AI panel needs a Claude sign-in; the rules panel works without it. Opening `Service Request Triage Assistant.html` on its own shows the rules panel only.
 
 ## Limitations
 
