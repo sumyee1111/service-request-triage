@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Service Request Triage Assistant</title>
+<style>
+:root{--bg:#f7f6f3;--fg:#1f2328;--muted:#656d76;--card:#fff;--line:#d9d6cf;--accent:#2f6f5e;--p1:#b42318;--p2:#b54708;--p3:#2f6f5e;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181a;--fg:#e8e6e1;--muted:#9aa1a8;--card:#1f2224;--line:#363a3d;--accent:#5fb89f;--p1:#ff8a7a;--p2:#f5a65b;--p3:#5fb89f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#16181a;--fg:#e8e6e1;--muted:#9aa1a8;--card:#1f2224;--line:#363a3d;--accent:#5fb89f;--p1:#ff8a7a;--p2:#f5a65b;--p3:#5fb89f;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:880px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.45rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 20px;font-size:.95rem}
+label{font-size:.85rem;color:var(--muted);display:block;margin:12px 0 4px}
+input,textarea,select{width:100%;box-sizing:border-box;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
+textarea{min-height:130px;resize:vertical}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+button{padding:10px 18px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;font:inherit;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent)}
+button:disabled{opacity:.5;cursor:wait}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+@media (max-width:680px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h2{font-size:1rem;margin:0 0 10px}
+.k{color:var(--muted);font-size:.8rem;margin-top:10px}
+.badge{display:inline-block;padding:2px 10px;border-radius:99px;border:1px solid currentColor;font-weight:600;font-size:.9rem}
+.P1{color:var(--p1)}.P2{color:var(--p2)}.P3{color:var(--p3)}
+.human{color:var(--p1);font-weight:600}.auto{color:var(--p3);font-weight:600}
+.reply{white-space:pre-wrap;background:var(--bg);border-radius:8px;padding:10px;font-size:.92rem}
+.note{color:var(--muted);font-size:.85rem;margin-top:18px}
+</style>
+</head>
+<body>
+<main>
+<h1>Service Request Triage Assistant</h1>
+<p class="sub">Paste a customer email. The page compares a keyword-rules baseline with an AI reading of the same email, then recommends category, priority, SLA and whether a human should handle it.</p>
+
+<label for="ex">Try a tricky example</label>
+<select id="ex"><option value="">Choose an example…</option></select>
+<label for="subj">Subject</label>
+<input id="subj" placeholder="e.g. Printer not working">
+<label for="body">Email body</label>
+<textarea id="body" placeholder="Paste the email text here"></textarea>
+<div class="row"><button id="go">Classify</button><button class="ghost" id="clr">Clear</button></div>
+
+<div class="grid" id="out" hidden>
+  <div class="card" id="rc"></div>
+  <div class="card" id="ac"></div>
+</div>
+<p class="note">Demo built on synthetic data. Companies, people and emails are fictional. SLA = first-response target: P1 1 hour, P2 4 hours, P3 1 working day. AI suggestions are drafts and always need human review before sending.</p>
+</main>
+<script>
+var CATS={"Complaint":["complaint","disappointed","not acceptable","cancel our contract","escalat","chase","no reply","unresolved","feedback","missed our appointment","director"],"Billing/Invoice":["invoice","inv-","credit note","refund","charged","po number","payment","billing"],"Order/Delivery":["order","ord-","delivery","delivered","quote","arrive","shipping address"],"Technical Support":["how do i","driver","set up","setup","training","wi-fi","log in","connect","print management","windows","is it possible"],"Repair/Fault":["not working","down","jam","streak","noise","toner","service visit","stopped","offline","engineer","repair","dead","power on","service"]};
+var TIE=["Complaint","Billing/Invoice","Order/Delivery","Technical Support","Repair/Fault"];
+var P1K=["urgent","cancel our contract","escalat","locked out","completely","as soon as possible","dead"];
+var P2K=["jam","streak","offline","not arrived","charged twice","missed","wrong item","disappointed","complaint","chase","slowing us down","cannot print","can't connect","this week"];
+var SLA={P1:"1 hour",P2:"4 hours",P3:"1 working day"};
+var EX=[
+["Wi-Fi printing question","Hi team, is it possible to print from phones to the office printer? Not urgent, whenever you get a chance. Thanks, Aoife"],
+["Re: ticket from Monday","Still nothing. The machine is dead and the whole team is standing around. We are losing orders. Need someone today."],
+["Feedback on last visit","The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit."],
+["Charged twice - INV-24817","Our card was charged twice for INV-24817. Please refund the duplicate payment as soon as possible, finance needs it reconciled this week."],
+["Invoice and printer issue","INV-22310 shows a service call we never had. Also our printer is still making noise. Can you look at both?"],
+["printer wont print, deadlien 3pm","hi evrything stoped printing an hour ago and we have a tendr to submit by 3pm. nobody can work arund it"]
+];
+var $=function(id){return document.getElementById(id)};
+EX.forEach(function(e,i){var o=document.createElement("option");o.value=i;o.textContent=e[0];$("ex").appendChild(o)});
+$("ex").onchange=function(){if(this.value==="")return;var e=EX[this.value];$("subj").value=e[0];$("body").value=e[1]};
+$("clr").onclick=function(){$("subj").value="";$("body").value="";$("ex").value="";$("out").hidden=true};
+
+function rules(s,b){
+  var t=(s+" "+b).toLowerCase().replace(/\u2019/g,"'"),sj=s.toLowerCase(),sc={},best=0,c;
+  for(c in CATS){var n=0;CATS[c].forEach(function(k){if(sj.indexOf(k)>-1)n+=2;else if(t.indexOf(k)>-1)n+=1});sc[c]=n;if(n>best)best=n}
+  if(best===0)return{category:"Unclassified",priority:"P3",human:true};
+  var top=TIE.filter(function(x){return sc[x]===best}),cat=top[0];
+  var has=function(a){return a.some(function(k){return t.indexOf(k)>-1})};
+  var pr=has(P1K)?"P1":has(P2K)?"P2":"P3";
+  return{category:cat,priority:pr,human:pr==="P1"||cat==="Complaint"||top.length>1||best<2};
+}
+function esc(x){var d=document.createElement("div");d.textContent=x==null?"":String(x);return d.innerHTML}
+function card(title,r,extra){
+  return "<h2>"+title+"</h2><div class='k'>Category</div><div>"+esc(r.category)+"</div>"+
+  "<div class='k'>Priority</div><div><span class='badge "+esc(r.priority)+"'>"+esc(r.priority)+"</span> &nbsp;first response within "+esc(SLA[r.priority]||"n/a")+"</div>"+
+  "<div class='k'>Routing</div><div class='"+(r.human?"human":"auto")+"'>"+(r.human?"Send to a human":"Safe to auto-draft")+"</div>"+(extra||"");
+}
+async function ai(s,b){
+  var sample=window.claude?await window.claude.use("sample"):null;
+  if(!sample)return null;
+  var p="You are a service desk triage assistant for a company that sells and repairs office equipment. Classify the customer email.\nCategories: Repair/Fault, Order/Delivery, Billing/Invoice, Technical Support, Complaint.\nPriority: P1 = equipment down, business blocked, or threat to cancel or escalate (respond within 1 hour); P2 = degraded service, late or wrong delivery, double charge, or a clear complaint (4 hours); P3 = routine request with no business impact (1 working day). Read negation carefully, for example \"not urgent\".\nneeds_human must be true for every P1, every complaint, and whenever you are unsure.\nReturn ONLY JSON: {\"category\":\"\",\"priority\":\"\",\"needs_human\":true,\"reason\":\"one sentence\",\"draft_reply\":\"max 60 words, polite, no promises you cannot keep\"}\n\nSubject: "+s+"\nBody: "+b;
+  var r=await sample(p,{modelTier:"quick",cache:false});
+  var m=(r.text||"").match(/\{[\s\S]*\}/);
+  if(!m)throw new Error("bad format");
+  var j=JSON.parse(m[0]);
+  return{category:j.category,priority:j.priority,human:!!j.needs_human,reason:j.reason,reply:j.draft_reply};
+}
+$("go").onclick=async function(){
+  var s=$("subj").value.trim(),b=$("body").value.trim();
+  if(!s&&!b)return;
+  var btn=this;btn.disabled=true;
+  $("out").hidden=false;
+  $("rc").innerHTML=card("Keyword rules (v1)",rules(s,b));
+  $("ac").innerHTML="<h2>AI reading (Claude)</h2><p class='k'>Thinking…</p>";
+  try{
+    var r=await ai(s,b);
+    if(!r){$("ac").innerHTML="<h2>AI reading (Claude)</h2><p class='k'>AI is only available when this page is opened while signed in to Claude. The rules result on the left still works.</p>"}
+    else{$("ac").innerHTML=card("AI reading (Claude)",r,"<div class='k'>Why</div><div>"+esc(r.reason)+"</div><div class='k'>Draft reply (needs human review)</div><div class='reply'>"+esc(r.reply)+"</div>")}
+  }catch(e){
+    $("ac").innerHTML="<h2>AI reading (Claude)</h2><p class='k'>The AI step could not run ("+esc(e.code||e.message||"error")+"). Try again in a moment.</p>";
+  }
+  btn.disabled=false;
+};
+</script>
+</body>
+</html>

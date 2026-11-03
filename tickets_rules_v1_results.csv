@@ -1,0 +1,2101 @@
+﻿ticket_id,received_at,customer,sender_email,subject,body,true_category,true_priority,edge_case,sla_target_min,manual_first_response_min,pred_category,pred_priority,needs_human,category_ok,priority_ok
+T0001,2026-10-12 07:26,Wicklow Print & Pack,declan.lynch@wicklowpack.example,Remove item from ORD-98510,"Hi team,
+
+Please remove the extra cable kit from ORD-98510, ordered by mistake.
+
+Kind regards,
+Declan Lynch
+Wicklow Print & Pack",Order/Delivery,P3,No,480,162,Order/Delivery,P3,False,True,True
+T0002,2026-10-12 08:21,Lee Valley Accountants,roisín.byrne@leevalleyacc.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Róisín Byrne
+Lee Valley Accountants",Complaint,P2,No,240,370,Complaint,P2,True,True,True
+T0003,2026-10-12 08:48,Suir Veterinary Practice,conor.murray@suirvets.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Conor Murray
+Suir Veterinary Practice",Complaint,P2,No,240,129,Complaint,P2,True,True,True
+T0004,2026-10-12 09:05,Barrow Auto Parts,sinead.murphy@barrowauto.example,Delivery not arrived - ORD-69342,"Hi team,
+
+Order ORD-69342 was due yesterday and has not arrived. We need it before Friday's installation or we will have to reschedule staff. Can you check?
+
+Kind regards,
+Sinéad Murphy
+Barrow Auto Parts",Order/Delivery,P2,No,240,172,Order/Delivery,P2,False,True,True
+T0005,2026-10-12 09:14,Atlantic Care Clinics,ciara.murphy@atlanticcare.example,Update PO number,"Hi team,
+
+Please add PO number 4721 to INV-22197 and resend.
+
+Kind regards,
+Ciara Murphy
+Atlantic Care Clinics",Billing/Invoice,P3,No,480,968,Billing/Invoice,P3,False,True,True
+T0006,2026-10-12 09:45,Dunmore Pharmacy Group,aoife.walsh@dunmorepharmacy.example,Strange noise from label printer LP-330,"Hi team,
+
+There is a grinding noise from the label printer LP-330 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Aoife Walsh
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,147,Repair/Fault,P3,False,True,True
+T0007,2026-10-12 09:46,Liffey Legal LLP,orla.murray@liffeylegal.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the projector PJ-550?
+
+Kind regards,
+Orla Murray
+Liffey Legal LLP",Technical Support,P3,No,480,531,Technical Support,P3,False,True,True
+T0008,2026-10-12 09:48,Slaney Hotels,ciara.murray@slaneyhotels.example,Update PO number,"Hi team,
+
+Please add PO number 4323 to INV-27844 and resend.
+
+Kind regards,
+Ciara Murray
+Slaney Hotels",Billing/Invoice,P3,No,480,244,Billing/Invoice,P3,False,True,True
+T0009,2026-10-12 10:07,Boyne Engineering,cian.byrne@boyneeng.example,Wrong item delivered ORD-16176,"Hi team,
+
+We received the wrong model against ORD-16176. We need the correct unit by Thursday for a new starter. Please advise.
+
+Kind regards,
+Cian Byrne
+Boyne Engineering",Order/Delivery,P2,No,240,434,Order/Delivery,P2,False,True,True
+T0010,2026-10-12 10:19,Burren Foods Ltd,sinead.ryan@burrenfoods.example,large-format printer LF-900 intermittently offline,"Hi team,
+
+The large-format printer LF-900 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Sinéad Ryan
+Burren Foods Ltd",Repair/Fault,P2,No,240,140,Repair/Fault,P2,False,True,True
+T0011,2026-10-12 10:29,Erne Property Management,orla.byrne@erneproperty.example,Quote request - 15 units of label printer LP-330,"Hi team,
+
+We are looking to buy 15 units of the label printer LP-330. Could you send a quote with lead times?
+
+Kind regards,
+Orla Byrne
+Erne Property Management",Order/Delivery,P3,No,480,356,Order/Delivery,P3,False,True,True
+T0012,2026-10-12 10:59,Suir Veterinary Practice,niamh.murphy@suirvets.example,Invoice and printer issue,"Hi team,
+
+INV-25595 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Niamh Murphy
+Suir Veterinary Practice",Billing/Invoice,P3,Yes,480,272,Billing/Invoice,P3,False,True,True
+T0013,2026-10-12 11:11,Burren Foods Ltd,aisling.obrien@burrenfoods.example,Strange noise from large-format printer LF-900,"Hi team,
+
+There is a grinding noise from the large-format printer LF-900 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Aisling O'Brien
+Burren Foods Ltd",Repair/Fault,P3,No,480,321,Repair/Fault,P3,False,True,True
+T0014,2026-10-12 11:11,Blackwater Dairy Co-op,emma.mccarthy@blackwaterdairy.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Emma McCarthy
+Blackwater Dairy Co-op",Complaint,P2,No,240,808,Complaint,P2,True,True,True
+T0015,2026-10-12 11:29,Corrib Logistics Ltd,liam.kelly@corriblogistics.example,Quote request - 5 units of POS terminal PT-80,"Hi team,
+
+We are looking to buy 5 units of the POS terminal PT-80. Could you send a quote with lead times?
+
+Kind regards,
+Liam Kelly
+Corrib Logistics Ltd",Order/Delivery,P3,No,480,559,Order/Delivery,P3,False,True,True
+T0016,2026-10-12 11:32,Lee Valley Accountants,conor.kelly@leevalleyacc.example,multifunction printer MFP-4200 intermittently offline,"Hi team,
+
+The multifunction printer MFP-4200 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Conor Kelly
+Lee Valley Accountants",Repair/Fault,P2,No,240,803,Repair/Fault,P2,False,True,True
+T0017,2026-10-12 11:33,Dunmore Pharmacy Group,grace.ryan@dunmorepharmacy.example,Order status ORD-48033,"Hi team,
+
+Hi, could you tell me where order ORD-48033 is please? No rush.
+
+Kind regards,
+Grace Ryan
+Dunmore Pharmacy Group",Order/Delivery,P3,No,480,439,Order/Delivery,P3,False,True,True
+T0018,2026-10-12 11:48,Dunmore Pharmacy Group,aisling.quinn@dunmorepharmacy.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the projector PJ-550?
+
+Kind regards,
+Aisling Quinn
+Dunmore Pharmacy Group",Technical Support,P3,No,480,319,Technical Support,P3,False,True,True
+T0019,2026-10-12 11:53,Boyne Engineering,padraig.obrien@boyneeng.example,Change delivery address for ORD-98264,"Hi team,
+
+Please change the delivery address on ORD-98264 to our Limerick branch. Thanks.
+
+Kind regards,
+Padraig O'Brien
+Boyne Engineering",Order/Delivery,P3,No,480,437,Order/Delivery,P3,False,True,True
+T0020,2026-10-12 12:08,Corrib Logistics Ltd,mark.walsh@corriblogistics.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The network switch NS-24 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Mark Walsh
+Corrib Logistics Ltd",Repair/Fault,P1,Yes,60,10,Order/Delivery,P1,True,False,True
+T0021,2026-10-12 12:08,Burren Foods Ltd,grace.obrien@burrenfoods.example,Order status ORD-89281,"Hi team,
+
+Hi, could you tell me where order ORD-89281 is please? No rush.
+
+Kind regards,
+Grace O'Brien
+Burren Foods Ltd",Order/Delivery,P3,No,480,311,Order/Delivery,P3,False,True,True
+T0022,2026-10-12 12:20,Suir Veterinary Practice,declan.brennan@suirvets.example,URGENT: multifunction printer MFP-4200 down at Limerick branch,"Hi team,
+
+Our multifunction printer MFP-4200 at Limerick branch has stopped working completely and we cannot print delivery dockets. This is urgent, please send an engineer today.
+
+Kind regards,
+Declan Brennan
+Suir Veterinary Practice",Repair/Fault,P1,No,60,126,Repair/Fault,P1,True,True,True
+T0023,2026-10-12 12:31,Blackwater Dairy Co-op,niamh.brennan@blackwaterdairy.example,Quote request - 9 units of multifunction printer MFP-4200,"Hi team,
+
+We are looking to buy 9 units of teh multifunction printre MFP-4200. Could you send a quote with lead times?
+
+Kind regards,
+Niamh Brennan
+Blackwater Diary Co-op",Order/Delivery,P3,Yes,480,439,Order/Delivery,P3,False,True,True
+T0024,2026-10-12 12:33,Wicklow Print & Pack,aoife.lynch@wicklowpack.example,Update PO number,"Hi team,
+
+Please add PO number 4030 to INV-20185 and resend.
+
+Kind regards,
+Aoife Lynch
+Wicklow Print & Pack",Billing/Invoice,P3,No,480,1259,Billing/Invoice,P3,False,True,True
+T0025,2026-10-12 13:00,Shannon Dental Group,brian.ryan@shannondental.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the label printer LP-330? We have the SMTP details.
+
+Kind regards,
+Brian Ryan
+Shannon Dental Group",Technical Support,P3,No,480,634,Technical Support,P3,False,True,True
+T0026,2026-10-12 13:04,Suir Veterinary Practice,aisling.quinn@suirvets.example,multifunction printer MFP-4200 intermittently offline,"Hi team,
+
+The multifunction printer MFP-4200 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Aisling Quinn
+Suir Veterinary Practice",Repair/Fault,P2,No,240,520,Repair/Fault,P2,False,True,True
+T0027,2026-10-12 13:06,Slaney Hotels,ciara.doyle@slaneyhotels.example,Streaks on printouts,"Hi team,
+
+Prints from the multifunction printer MFP-4200 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Ciara Doyle
+Slaney Hotels",Repair/Fault,P2,No,240,160,Repair/Fault,P2,False,True,True
+T0028,2026-10-12 13:07,Dunmore Pharmacy Group,aoife.murphy@dunmorepharmacy.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Cork office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Aoife Murphy
+Dunmore Pharmacy Group",Repair/Fault,P2,No,240,1818,Repair/Fault,P2,False,True,True
+T0029,2026-10-12 13:30,Corrib Logistics Ltd,padraig.mccarthy@corriblogistics.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the projector PJ-550? We have the SMTP details.
+
+Kind regards,
+Padraig McCarthy
+Corrib Logistics Ltd",Technical Support,P3,No,480,143,Technical Support,P3,False,True,True
+T0030,2026-10-12 13:31,Dunmore Pharmacy Group,orla.ryan@dunmorepharmacy.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Orla Ryan
+Dunmore Pharmacy Group",Complaint,P2,No,240,349,Complaint,P2,True,True,True
+T0031,2026-10-12 13:38,Slaney Hotels,sinead.brennan@slaneyhotels.example,Escalation,"Hi team,
+
+No one has called back in 3 days. Our director is asking why we pay for this service. We expect a call within the hour.
+
+Kind regards,
+Sinéad Brennan
+Slaney Hotels",Complaint,P1,Yes,60,80,Complaint,P1,True,True,True
+T0032,2026-10-12 13:41,Dunmore Pharmacy Group,emma.murray@dunmorepharmacy.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the document scanner DS-12?
+
+Kind regards,
+Emma Murray
+Dunmore Pharmacy Group",Technical Support,P3,No,480,1242,Technical Support,P3,False,True,True
+T0033,2026-10-12 14:00,Nore Building Supplies,eoin.murphy@norebuild.example,Escalation,"Hi team,
+
+No one has called back in 3 days. Our director is asking why we pay for this service. We expect a call within the hour.
+
+Kind regards,
+Eoin Murphy
+Nore Building Supplies",Complaint,P1,Yes,60,185,Complaint,P1,True,True,True
+T0034,2026-10-12 14:05,Atlantic Care Clinics,eoin.murphy@atlanticcare.example,Toner running low,"Hi team,
+
+The label printer LP-330 is showing a low toner warning. Pelase send a erplacement cartridge when you can.
+
+Kind ergards,
+Eoin Murphy
+Atlantic Care Clinics",Repair/Fault,P3,Yes,480,917,Repair/Fault,P3,False,True,True
+T0035,2026-10-12 14:13,Boyne Engineering,aoife.brennan@boyneeng.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Aoife Brennan
+Boyne Engineering",Complaint,P2,No,240,55,Complaint,P3,True,True,False
+T0036,2026-10-12 14:14,Slaney Hotels,sarah.kelly@slaneyhotels.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Sarah Kelly
+Slaney Hotels",Complaint,P2,No,240,120,Complaint,P2,True,True,True
+T0037,2026-10-12 14:39,Atlantic Care Clinics,emma.quinn@atlanticcare.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Emma Quinn
+Atlantic Care Clinics",Complaint,P2,No,240,397,Complaint,P2,True,True,True
+T0038,2026-10-12 14:40,Burren Foods Ltd,ciara.murphy@burrenfoods.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit on INV-25282. Please issue a credit note.
+
+Kind regards,
+Ciara Murphy
+Burren Foods Ltd",Billing/Invoice,P3,No,480,346,Billing/Invoice,P3,False,True,True
+T0039,2026-10-12 14:52,Blackwater Dairy Co-op,mark.kelly@blackwaterdairy.example,label printer LP-330 jamming repeatedly,"Hi team,
+
+The label printer LP-330 at Cork office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Mark Kelly
+Blackwater Dairy Co-op",Repair/Fault,P2,No,240,179,Repair/Fault,P2,False,True,True
+T0040,2026-10-12 15:00,Corrib Logistics Ltd,eoin.gallagher@corriblogistics.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Cork office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Eoin Gallagher
+Corrib Logistics Ltd",Repair/Fault,P2,No,240,135,Repair/Fault,P2,False,True,True
+T0041,2026-10-12 15:07,Burren Foods Ltd,niamh.moore@burrenfoods.example,Remove item from ORD-34043,"Hi team,
+
+Please remove the extra cable kit from ORD-34043, ordered by mistake.
+
+Kind regards,
+Niamh Moore
+Burren Foods Ltd",Order/Delivery,P3,No,480,451,Order/Delivery,P3,False,True,True
+T0042,2026-10-12 15:16,Suir Veterinary Practice,niamh.doyle@suirvets.example,Change delivery address for ORD-66970,"Hi team,
+
+Please change the delivery address on ORD-66970 to our Limerick branch. Thanks.
+
+Kind regards,
+Niamh Doyle
+Suir Veterinary Practice",Order/Delivery,P3,No,480,113,Order/Delivery,P3,False,True,True
+T0043,2026-10-12 15:38,Corrib Logistics Ltd,sarah.kelly@corriblogistics.example,Charged twice - INV-28020,"Hi team,
+
+Our card was charged twice for INV-28020. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Sarah Kelly
+Corrib Logistics Ltd",Billing/Invoice,P2,No,240,155,Billing/Invoice,P1,True,True,False
+T0044,2026-10-12 15:40,Nore Building Supplies,emma.quinn@norebuild.example,Update PO number,"Hi team,
+
+Please add PO number 4839 to INV-28422 and resend.
+
+Kind regards,
+Emma Quinn
+Nore Building Supplies",Billing/Invoice,P3,No,480,1063,Billing/Invoice,P3,False,True,True
+T0045,2026-10-12 16:09,Lee Valley Accountants,mark.murphy@leevalleyacc.example,Toner running low,"Hi team,
+
+The label printer LP-330 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Mark Murphy
+Lee Valley Accountants",Repair/Fault,P3,No,480,160,Repair/Fault,P3,False,True,True
+T0046,2026-10-12 16:41,Shannon Dental Group,mark.ryan@shannondental.example,Can't connect label printer LP-330 after update,"Hi team,
+
+Since the Windows update last night staff cannot print from their laptops to the label printer LP-330. Some colleagues can still print from the shared PC. Please help this week.
+
+Kind regards,
+Mark Ryan
+Shannon Dental Group",Technical Support,P2,No,240,671,Technical Support,P2,False,True,True
+T0047,2026-10-12 16:48,Shannon Dental Group,grace.quinn@shannondental.example,label printer LP-330 intermittently offline,"Hi team,
+
+The label printer LP-330 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Grace Quinn
+Shannon Dental Group",Repair/Fault,P2,No,240,322,Repair/Fault,P2,False,True,True
+T0048,2026-10-12 17:02,Blackwater Dairy Co-op,cian.doyle@blackwaterdairy.example,Change delivery address for ORD-22902,"Hi team,
+
+Please change the delivery address on ORD-22902 to our Limerick branch. Thanks.
+
+Kind regards,
+Cian Doyle
+Blackwater Dairy Co-op",Order/Delivery,P3,No,480,280,Order/Delivery,P3,False,True,True
+T0049,2026-10-12 17:08,Dunmore Pharmacy Group,mark.kelly@dunmorepharmacy.example,Invoice and printer issue,"Hi team,
+
+INV-21945 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Mark Kelly
+Dunmore Pharmacy Group",Billing/Invoice,P3,Yes,480,774,Billing/Invoice,P3,False,True,True
+T0050,2026-10-12 17:57,Wicklow Print & Pack,grace.doyle@wicklowpack.example,Charged twice - INV-25115,"Hi team,
+
+Our card was charged twice for INV-25115. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Grace Doyle
+Wicklow Print & Pack",Billing/Invoice,P2,No,240,158,Billing/Invoice,P1,True,True,False
+T0051,2026-10-12 18:31,Nore Building Supplies,sinead.murray@norebuild.example,Remove item from ORD-98144,"Hi team,
+
+Please remove the extra cable kit from ORD-98144, ordered by mistake.
+
+Kind regards,
+Sinéad Murray
+Nore Building Supplies",Order/Delivery,P3,No,480,407,Order/Delivery,P3,False,True,True
+T0052,2026-10-13 08:34,Blackwater Dairy Co-op,conor.gallagher@blackwaterdairy.example,Quote request - 3 units of large-format printer LF-900,"Hi team,
+
+We are looking to buy 3 units of the large-format printer LF-900. Could you send a quote with lead times?
+
+Kind regards,
+Conor Gallagher
+Blackwater Dairy Co-op",Order/Delivery,P3,No,480,248,Order/Delivery,P3,False,True,True
+T0053,2026-10-13 09:12,Dunmore Pharmacy Group,declan.obrien@dunmorepharmacy.example,Query on INV-29237,"Hi team,
+
+Hi, the amount on INV-29237 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Declan O'Brien
+Dunmore Pharmacy Group",Billing/Invoice,P3,No,480,156,Billing/Invoice,P3,False,True,True
+T0054,2026-10-13 09:16,Atlantic Care Clinics,darragh.obrien@atlanticcare.example,Streaks on printouts,"Hi team,
+
+Prints from the large-format printer LF-900 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Darragh O'Brien
+Atlantic Care Clinics",Repair/Fault,P2,No,240,317,Repair/Fault,P2,False,True,True
+T0055,2026-10-13 09:18,Lee Valley Accountants,ciara.doyle@leevalleyacc.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit on INV-22566. Please issue a credit note.
+
+Kind regards,
+Ciara Doyle
+Lee Valley Accountants",Billing/Invoice,P3,No,480,973,Billing/Invoice,P3,False,True,True
+T0056,2026-10-13 09:39,Corrib Logistics Ltd,declan.kelly@corriblogistics.example,large-format printer LF-900 intermittently offline,"Hi team,
+
+The large-format printer LF-900 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Declan Kelly
+Corrib Logistics Ltd",Repair/Fault,P2,No,240,185,Repair/Fault,P2,False,True,True
+T0057,2026-10-13 09:51,Dunmore Pharmacy Group,grace.gallagher@dunmorepharmacy.example,Routine service visit,"Hi team,
+
+Hi, our label printer LP-330 at Sligo store is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Grace Gallagher
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,513,Repair/Fault,P3,False,True,True
+T0058,2026-10-13 09:59,Wicklow Print & Pack,aoife.moore@wicklowpack.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit on INV-23819. Please issue a credit note.
+
+Kind regards,
+Aoife Moore
+Wicklow Print & Pack",Billing/Invoice,P3,No,480,645,Billing/Invoice,P3,False,True,True
+T0059,2026-10-13 10:13,Moy Education Trust,declan.mccarthy@moyedu.example,Toner running low,"Hi team,
+
+The multifunction printer MFP-4200 is showing a low toner warning. Please send a replacement cartrideg when you can.
+
+Kind regards,
+Declan McCarthy
+Moy Education Trust",Repair/Fault,P3,Yes,480,475,Repair/Fault,P3,False,True,True
+T0060,2026-10-13 10:32,Blackwater Dairy Co-op,cian.byrne@blackwaterdairy.example,Order status ORD-20819,"Hi team,
+
+Hi, could you tell me where order ORD-20819 is please? No rush.
+
+Kind regards,
+Cian Byrne
+Blackwater Dairy Co-op",Order/Delivery,P3,No,480,461,Order/Delivery,P3,False,True,True
+T0061,2026-10-13 10:50,Barrow Auto Parts,emma.kelly@barrowauto.example,network switch NS-24 not working,"Hi team,
+
+Since this morning the network switch NS-24 won't power on and we can't print invoices for customers. There is a full queue waiting. Can someone come out as soon as possible?
+
+Kind regards,
+Emma Kelly
+Barrow Auto Parts",Repair/Fault,P1,No,60,67,Repair/Fault,P1,True,True,True
+T0062,2026-10-13 11:08,Corrib Logistics Ltd,mark.gallagher@corriblogistics.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the document scanner DS-12? Not urgent.
+
+Kind regards,
+Mark Gallagher
+Corrib Logistics Ltd",Technical Support,P3,No,480,261,Technical Support,P1,True,True,False
+T0063,2026-10-13 11:14,Barrow Auto Parts,darragh.kelly@barrowauto.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the label printer LP-330? We have the SMTP details.
+
+Kind regards,
+Darragh Kelly
+Barrow Auto Parts",Technical Support,P3,No,480,823,Technical Support,P3,False,True,True
+T0064,2026-10-13 11:14,Atlantic Care Clinics,declan.doyle@atlanticcare.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Declan Doyle
+Atlantic Care Clinics",Complaint,P2,No,240,389,Complaint,P2,True,True,True
+T0065,2026-10-13 11:32,Slaney Hotels,sarah.kelly@slaneyhotels.example,multifunction printer MFP-4200 intermittently offline,"Hi team,
+
+The multifunction printer MFP-4200 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Sarah Kelly
+Slaney Hotels",Repair/Fault,P2,No,240,249,Repair/Fault,P2,False,True,True
+T0066,2026-10-13 11:45,Corrib Logistics Ltd,darragh.kelly@corriblogistics.example,Charged twice - INV-22899,"Hi team,
+
+Our card was charged twice for INV-22899. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Darragh Kelly
+Corrib Logistics Ltd",Billing/Invoice,P2,No,240,138,Billing/Invoice,P1,True,True,False
+T0067,2026-10-13 12:13,Moy Education Trust,sean.brennan@moyedu.example,Strange noise from label printer LP-330,"Hi team,
+
+There is a grinding noise from the label printer LP-330 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Seán Brennan
+Moy Education Trust",Repair/Fault,P3,No,480,253,Repair/Fault,P3,False,True,True
+T0068,2026-10-13 12:26,Barrow Auto Parts,sinead.murphy@barrowauto.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the large-format printer LF-900 for Windows 11?
+
+Kind regards,
+Sinéad Murphy
+Barrow Auto Parts",Technical Support,P3,No,480,639,Technical Support,P3,False,True,True
+T0069,2026-10-13 12:46,Dunmore Pharmacy Group,aoife.gallagher@dunmorepharmacy.example,Routine service visit,"Hi team,
+
+Hi, our label printer LP-330 at Sligo store is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Aoife Gallagher
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,1215,Repair/Fault,P3,False,True,True
+T0070,2026-10-13 13:01,Moy Education Trust,eoin.byrne@moyedu.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the network switch NS-24? Not urgent.
+
+Kind regards,
+Eoin Byrne
+Moy Education Trust",Technical Support,P3,No,480,274,Technical Support,P1,True,True,False
+T0071,2026-10-13 13:05,Atlantic Care Clinics,aoife.brennan@atlanticcare.example,Order status ORD-79219,"Hi team,
+
+Hi, could you tell me where order ORD-79219 is please? No rush.
+
+Kind regards,
+Aoife Brennan
+Atlantic Care Clinics",Order/Delivery,P3,No,480,576,Order/Delivery,P3,False,True,True
+T0072,2026-10-13 13:40,Nore Building Supplies,ciara.gallagher@norebuild.example,Delivery not arrived - ORD-92165,"Hi team,
+
+Order ORD-92165 was due yesterday and has not arrived. We need it before Friday's installation or we will have to reschedule staff. Can you check?
+
+Kind regards,
+Ciara Gallagher
+Nore Building Supplies",Order/Delivery,P2,No,240,230,Order/Delivery,P2,False,True,True
+T0073,2026-10-13 14:02,Shannon Dental Group,eoin.lynch@shannondental.example,Remove item from ORD-92283,"Hi team,
+
+Please remove the extra cable kit from ORD-92283, ordered by mistake.
+
+Kind regards,
+Eoin Lynch
+Shannon Dental Group",Order/Delivery,P3,No,480,161,Order/Delivery,P3,False,True,True
+T0074,2026-10-13 14:09,Nore Building Supplies,sarah.doyle@norebuild.example,Invoice and printer issue,"Hi team,
+
+INV-29518 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Sarah Doyle
+Nore Building Supplies",Billing/Invoice,P3,Yes,480,326,Billing/Invoice,P3,False,True,True
+T0075,2026-10-13 14:22,Nore Building Supplies,darragh.walsh@norebuild.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the network switch NS-24? Not urgent.
+
+Kind regards,
+Darragh Walsh
+Nore Building Supplies",Technical Support,P3,No,480,632,Technical Support,P1,True,True,False
+T0076,2026-10-13 14:55,Lee Valley Accountants,liam.walsh@leevalleyacc.example,Routine service visit,"Hi team,
+
+Hi, our label printer LP-330 at Sligo store is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Liam Walsh
+Lee Valley Accountants",Repair/Fault,P3,No,480,521,Repair/Fault,P3,False,True,True
+T0077,2026-10-13 14:56,Suir Veterinary Practice,aoife.kennedy@suirvets.example,Invoice and printer issue,"Hi team,
+
+INV-29692 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Aoife Kennedy
+Suir Veterinary Practice",Billing/Invoice,P3,Yes,480,278,Billing/Invoice,P3,False,True,True
+T0078,2026-10-13 14:56,Shannon Dental Group,grace.moore@shannondental.example,Charged twice - INV-22840,"Hi team,
+
+Our card was charged twice for INV-22840. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Grace Moore
+Shannon Dental Group",Billing/Invoice,P2,No,240,329,Billing/Invoice,P1,True,True,False
+T0079,2026-10-13 15:09,Corrib Logistics Ltd,mark.walsh@corriblogistics.example,Wrong item delivered ORD-21471,"Hi team,
+
+We received the wrong model against ORD-21471. We need the correct unit by Thursday for a new starter. Please advise.
+
+Kind regards,
+Mark Walsh
+Corrib Logistics Ltd",Order/Delivery,P2,No,240,179,Order/Delivery,P2,False,True,True
+T0080,2026-10-13 15:09,Blackwater Dairy Co-op,conor.walsh@blackwaterdairy.example,Query on INV-23170,"Hi team,
+
+Hi, the amount on INV-23170 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Conor Walsh
+Blackwater Dairy Co-op",Billing/Invoice,P3,No,480,105,Billing/Invoice,P3,False,True,True
+T0081,2026-10-13 15:17,Barrow Auto Parts,niamh.mccarthy@barrowauto.example,Update PO number,"Hi team,
+
+Please add PO number 4050 to INV-26446 and resend.
+
+Kind regards,
+Niamh McCarthy
+Barrow Auto Parts",Billing/Invoice,P3,No,480,1219,Billing/Invoice,P3,False,True,True
+T0082,2026-10-13 15:18,Atlantic Care Clinics,orla.murray@atlanticcare.example,Toner running low,"Hi team,
+
+The multifunction printer MFP-4200 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Orla Murray
+Atlantic Care Clinics",Repair/Fault,P3,No,480,364,Repair/Fault,P3,False,True,True
+T0083,2026-10-13 15:21,Lee Valley Accountants,eoin.gallagher@leevalleyacc.example,Charged twice - INV-29640,"Hi team,
+
+Our card was charged twice for INV-29640. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Eoin Gallagher
+Lee Valley Accountants",Billing/Invoice,P2,No,240,718,Billing/Invoice,P1,True,True,False
+T0084,2026-10-13 15:23,Erne Property Management,orla.obrien@erneproperty.example,Quote request - 3 units of network switch NS-24,"Hi team,
+
+We are looking to buy 3 units of the network switch NS-24. Could you send a quote with lead times?
+
+Kind regards,
+Orla O'Brien
+Erne Property Management",Order/Delivery,P3,No,480,774,Order/Delivery,P3,False,True,True
+T0085,2026-10-13 15:33,Burren Foods Ltd,ciara.obrien@burrenfoods.example,Copy of invoice INV-26143,"Hi team,
+
+Can you resend INV-26143? We cannot find the original.
+
+Kind regards,
+Ciara O'Brien
+Burren Foods Ltd",Billing/Invoice,P3,No,480,1525,Billing/Invoice,P3,False,True,True
+T0086,2026-10-13 15:49,Dunmore Pharmacy Group,aoife.kennedy@dunmorepharmacy.example,large-format printer LF-900 intermittently offline,"Hi team,
+
+The large-format printer LF-900 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Aoife Kennedy
+Dunmore Pharmacy Group",Repair/Fault,P2,No,240,232,Repair/Fault,P2,False,True,True
+T0087,2026-10-13 15:49,Moy Education Trust,ciara.byrne@moyedu.example,URGENT: network switch NS-24 down at Waterford site,"Hi team,
+
+Our network switch NS-24 at Waterford site has stopped working completely and we cannot process patient forms. This is urgent, please send an engineer today.
+
+Kind regards,
+Ciara Byrne
+Moy Education Trust",Repair/Fault,P1,No,60,69,Repair/Fault,P1,True,True,True
+T0088,2026-10-13 16:40,Barrow Auto Parts,mark.obrien@barrowauto.example,URGENT: multifunction printer MFP-4200 down at Athlone clinic,"Hi team,
+
+Our multifunction printer MFP-4200 at Athlone clinic has stopped working completely and we cannot scan signed contracts. This is urgent, please send an engineer today.
+
+Kind regards,
+Mark O'Brien
+Barrow Auto Parts",Repair/Fault,P1,No,60,186,Repair/Fault,P1,True,True,True
+T0089,2026-10-13 17:27,Burren Foods Ltd,darragh.walsh@burrenfoods.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the large-format printer LF-900 for Windows 11?
+
+Kind regards,
+Darragh Walsh
+Burren Foods Ltd",Technical Support,P3,No,480,2458,Technical Support,P3,False,True,True
+T0090,2026-10-14 08:02,Boyne Engineering,sean.walsh@boyneeng.example,Delivery not arrived - ORD-87088,"Hi team,
+
+Order ORD-87088 was due yesterday and has not arrived. We need it before Friday's installation or we will have to reschedule staff. Can you check?
+
+Kind regards,
+Seán Walsh
+Boyne Engineering",Order/Delivery,P2,No,240,378,Order/Delivery,P2,False,True,True
+T0091,2026-10-14 08:14,Barrow Auto Parts,mark.moore@barrowauto.example,Strange noise from large-format printer LF-900,"Hi team,
+
+There is a grinding noise from the large-format printer LF-900 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Mark Moore
+Barrow Auto Parts",Repair/Fault,P3,No,480,634,Repair/Fault,P3,False,True,True
+T0092,2026-10-14 08:16,Atlantic Care Clinics,ciara.obrien@atlanticcare.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the large-format printer LF-900?
+
+Kind regards,
+Ciara O'Brien
+Atlantic Care Clinics",Technical Support,P3,No,480,298,Technical Support,P3,False,True,True
+T0093,2026-10-14 08:25,Atlantic Care Clinics,sean.brennan@atlanticcare.example,No printing at all - tender deadline 3pm,"Hi team,
+
+Hi, everything stopped printing at Dublin head office about an hour ago and we have a tender to submit by 3pm. Nobody can work around it. Plaese help.
+
+Kind regards,
+Seán Brennan
+Atlantic Care Clinics",Repair/Fault,P1,Yes,60,85,Repair/Fault,P1,True,True,True
+T0094,2026-10-14 09:22,Dunmore Pharmacy Group,sean.lynch@dunmorepharmacy.example,Strange noise from label printer LP-330,"Hi team,
+
+There is a grinding noise from the label printer LP-330 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Seán Lynch
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,1091,Repair/Fault,P3,False,True,True
+T0095,2026-10-14 09:23,Atlantic Care Clinics,aoife.quinn@atlanticcare.example,Quote request - 4 units of multifunction printer MFP-4200,"Hi team,
+
+We are looking to buy 4 units of the multifunction printer MFP-4200. Could you send a quote with lead times?
+
+Kind regards,
+Aoife Quinn
+Atlantic Care Clinics",Order/Delivery,P3,No,480,999,Order/Delivery,P3,False,True,True
+T0096,2026-10-14 09:29,Nore Building Supplies,brian.obrien@norebuild.example,Remove item from ORD-34992,"Hi team,
+
+Please remove the extra cable kit from ORD-34992, ordered by mistake.
+
+Kind regards,
+Brian O'Brien
+Nore Building Supplies",Order/Delivery,P3,No,480,1094,Order/Delivery,P3,False,True,True
+T0097,2026-10-14 09:50,Burren Foods Ltd,cian.moore@burrenfoods.example,Change delivery address for ORD-30948,"Hi team,
+
+Please change the delivery address on ORD-30948 to our Limerick branch. Thanks.
+
+Kind regards,
+Cian Moore
+Burren Foods Ltd",Order/Delivery,P3,No,480,442,Order/Delivery,P3,False,True,True
+T0098,2026-10-14 10:01,Liffey Legal LLP,orla.kennedy@liffeylegal.example,URGENT: large-format printer LF-900 down at Limerick branch,"Hi team,
+
+Our large-format printer LF-900 at Limerick branch has stopped working completely and we cannot print invoices. This is urgent, please send an engineer today.
+
+Kind regards,
+Orla Kennedy
+Liffey Legal LLP",Repair/Fault,P1,No,60,204,Repair/Fault,P1,True,True,True
+T0099,2026-10-14 10:24,Barrow Auto Parts,liam.murphy@barrowauto.example,large-format printer LF-900 intermittently offline,"Hi team,
+
+The large-format printer LF-900 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Liam Murphy
+Barrow Auto Parts",Repair/Fault,P2,No,240,138,Repair/Fault,P2,False,True,True
+T0100,2026-10-14 10:30,Shannon Dental Group,roisín.gallagher@shannondental.example,Update PO number,"Hi team,
+
+Please add PO number 4467 to INV-25352 and resend.
+
+Kind regards,
+Róisín Gallagher
+Shannon Detnal Group",Billing/Invoice,P3,Yes,480,460,Billing/Invoice,P3,False,True,True
+T0101,2026-10-14 10:50,Liffey Legal LLP,emma.doyle@liffeylegal.example,Remove item from ORD-14995,"Hi team,
+
+Please remove the extra cable kit from ORD-14995, ordered by mistake.
+
+Kind regards,
+Emma Doyle
+Liffey Legal LLP",Order/Delivery,P3,No,480,175,Order/Delivery,P3,False,True,True
+T0102,2026-10-14 10:59,Blackwater Dairy Co-op,liam.gallagher@blackwaterdairy.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the document scanner DS-12? We have the SMTP details.
+
+Kind regards,
+Liam Gallagher
+Blackwater Dairy Co-op",Technical Support,P3,No,480,370,Technical Support,P3,False,True,True
+T0103,2026-10-14 10:59,Dunmore Pharmacy Group,darragh.gallagher@dunmorepharmacy.example,Routine service visit,"Hi team,
+
+Hi, our multifunction printer MFP-4200 at Cork office is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Darragh Gallagher
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,722,Repair/Fault,P3,False,True,True
+T0104,2026-10-14 11:17,Barrow Auto Parts,eoin.quinn@barrowauto.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the large-format printer LF-900? We have the SMTP details.
+
+Kind regards,
+Eoin Quinn
+Barrow Auto Parts",Technical Support,P3,No,480,658,Technical Support,P3,False,True,True
+T0105,2026-10-14 11:25,Slaney Hotels,aoife.moore@slaneyhotels.example,Change delivery address for ORD-48288,"Hi team,
+
+Please change the delivery address on ORD-48288 to our Limerick branch. Thanks.
+
+Kind regards,
+Aoife Moore
+Slaney Hotels",Order/Delivery,P3,No,480,1036,Order/Delivery,P3,False,True,True
+T0106,2026-10-14 11:37,Liffey Legal LLP,ciara.murray@liffeylegal.example,Routine service visit,"Hi team,
+
+Hi, our multifunction printer MFP-4200 at Cork office is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Ciara Murray
+Liffey Legal LLP",Repair/Fault,P3,No,480,403,Repair/Fault,P3,False,True,True
+T0107,2026-10-14 11:40,Shannon Dental Group,sean.walsh@shannondental.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the network switch NS-24? We have the SMTP detalis.
+
+Kind regards,
+Seán Walsh
+Shannon Dental Group",Technical Support,P3,Yes,480,635,Technical Support,P3,False,True,True
+T0108,2026-10-14 13:09,Atlantic Care Clinics,conor.murphy@atlanticcare.example,No printing at all - tender deadline 3pm,"Hi team,
+
+Hi, everything stopped printing at Sligo store about an hour ago and we have a tender to submit by 3pm. Nobody can work around it. Please help.
+
+Kind regards,
+Conor Murphy
+Atlantic Care Clinics",Repair/Fault,P1,No,60,24,Repair/Fault,P1,True,True,True
+T0109,2026-10-14 13:12,Erne Property Management,emma.byrne@erneproperty.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Emma Byrne
+Erne Property Management",Complaint,P2,No,240,272,Complaint,P2,True,True,True
+T0110,2026-10-14 13:48,Nore Building Supplies,aoife.moore@norebuild.example,Quote request - 8 units of large-format printer LF-900,"Hi team,
+
+We are looking to buy 8 units of the large-format printer LF-900. Could you send a quote with lead times?
+
+Kind regards,
+Aoife Moore
+Nore Building Supplies",Order/Delivery,P3,No,480,871,Order/Delivery,P3,False,True,True
+T0111,2026-10-14 13:52,Dunmore Pharmacy Group,emma.moore@dunmorepharmacy.example,Toner running low,"Hi team,
+
+The multifunction printer MFP-4200 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Emma Moore
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,380,Repair/Fault,P3,False,True,True
+T0112,2026-10-14 13:53,Burren Foods Ltd,orla.walsh@burrenfoods.example,Wrong item delivered ORD-78773,"Hi team,
+
+We received the wrong model against ORD-78773. We need the correct unit by Thursday for a new starter. Pleaes advise.
+
+Kind regards,
+Orla Walsh
+Burren Foods Ltd",Order/Delivery,P2,Yes,240,928,Order/Delivery,P2,False,True,True
+T0113,2026-10-14 14:16,Shannon Dental Group,darragh.quinn@shannondental.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Darragh Quinn
+Shannon Dental Group",Complaint,P2,No,240,208,Complaint,P2,True,True,True
+T0114,2026-10-14 15:14,Moy Education Trust,eoin.moore@moyedu.example,Charged twice - INV-23495,"Hi team,
+
+Our card was charged twice for INV-23495. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Eoin Moore
+Moy Education Trust",Billing/Invoice,P2,No,240,183,Billing/Invoice,P1,True,True,False
+T0115,2026-10-14 16:48,Burren Foods Ltd,sinead.murray@burrenfoods.example,URGENT: large-format printer LF-900 down at Athlone clinic,"Hi team,
+
+Our large-format printer LF-900 at Athlone clinic has stopped working completely and we cannot scan signed contracts. This is urgent, please send an engineer today.
+
+Kind regards,
+Sinéad Murray
+Burren Foods Ltd",Repair/Fault,P1,No,60,45,Repair/Fault,P1,True,True,True
+T0116,2026-10-14 17:14,Blackwater Dairy Co-op,sean.gallagher@blackwaterdairy.example,Strange noise from large-format printer LF-900,"Hi team,
+
+There is a grinding noise from the large-format printer LF-900 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Seán Gallagher
+Blackwater Dairy Co-op",Repair/Fault,P3,No,480,489,Repair/Fault,P3,False,True,True
+T0117,2026-10-14 17:48,Nore Building Supplies,eoin.walsh@norebuild.example,label printer LP-330 jamming repeatedly,"Hi team,
+
+The label printer LP-330 at Waterford site jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Eoin Walsh
+Nore Building Supplies",Repair/Fault,P2,No,240,339,Repair/Fault,P2,False,True,True
+T0118,2026-10-14 18:22,Blackwater Dairy Co-op,roisín.walsh@blackwaterdairy.example,Query on INV-21606,"Hi team,
+
+Hi, the amount on INV-21606 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Róisín Walsh
+Blackwater Dairy Co-op",Billing/Invoice,P3,No,480,426,Billing/Invoice,P3,False,True,True
+T0119,2026-10-14 18:25,Atlantic Care Clinics,liam.lynch@atlanticcare.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The projector PJ-550 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Liam Lynch
+Atlantic Care Clinics",Repair/Fault,P1,Yes,60,94,Order/Delivery,P1,True,False,True
+T0120,2026-10-15 09:04,Shannon Dental Group,cian.obrien@shannondental.example,Invoice and printer issue,"Hi team,
+
+INV-28790 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Cian O'Brien
+Shannon Dental Group",Billing/Invoice,P3,Yes,480,143,Billing/Invoice,P3,False,True,True
+T0121,2026-10-15 09:11,Liffey Legal LLP,grace.walsh@liffeylegal.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the large-format printer LF-900 for Windows 11?
+
+Kind regards,
+Grace Walsh
+Liffey Legal LLP",Technical Support,P3,No,480,569,Technical Support,P3,False,True,True
+T0122,2026-10-15 09:18,Corrib Logistics Ltd,grace.lynch@corriblogistics.example,Order status ORD-47266,"Hi team,
+
+Hi, could you tell me where order ORD-47266 is please? No rush.
+
+Kind regards,
+Grace Lynch
+Corrib Logistics Ltd",Order/Delivery,P3,No,480,2053,Order/Delivery,P3,False,True,True
+T0123,2026-10-15 09:19,Moy Education Trust,sinead.ryan@moyedu.example,Invoice and printer issue,"Hi team,
+
+INV-28996 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Sinéad Ryan
+Moy Education Trust",Billing/Invoice,P3,Yes,480,287,Billing/Invoice,P3,False,True,True
+T0124,2026-10-15 09:26,Lee Valley Accountants,cian.moore@leevalleyacc.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the label printer LP-330? Not urgent.
+
+Kind regards,
+Cian Moore
+Lee Valley Accountants",Technical Support,P3,No,480,438,Technical Support,P1,True,True,False
+T0125,2026-10-15 09:35,Atlantic Care Clinics,mark.lynch@atlanticcare.example,Order status ORD-34939,"Hi team,
+
+Hi, could you tell me where order ORD-34939 is please? No rush.
+
+Kind regards,
+Mark Lynch
+Atlantic Care Clinics",Order/Delivery,P3,No,480,655,Order/Delivery,P3,False,True,True
+T0126,2026-10-15 09:44,Suir Veterinary Practice,grace.byrne@suirvets.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the large-format printer LF-900? Not urgent.
+
+Kind regards,
+Grace Byrne
+Suir Veterinary Practice",Technical Support,P3,No,480,173,Technical Support,P1,True,True,False
+T0127,2026-10-15 09:57,Liffey Legal LLP,sinead.doyle@liffeylegal.example,Formal complaint - considering cancelling contract,"Hi team,
+
+This is the third time our issue has gone unresolved and we have lost a week of work. If it is not fixed immediately we will cancel our contract. Please escalate to your manager.
+
+Kind regards,
+Sinéad Doyle
+Liffey Legal LLP",Complaint,P1,No,60,56,Complaint,P1,True,True,True
+T0128,2026-10-15 10:07,Erne Property Management,sarah.lynch@erneproperty.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the label printer LP-330 for Windows 11?
+
+Kind regards,
+Sarah Lynch
+Erne Property Management",Technical Support,P3,No,480,130,Technical Support,P3,False,True,True
+T0129,2026-10-15 10:07,Boyne Engineering,mark.murphy@boyneeng.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Athlone clinic jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Mark Murphy
+Boyne Engineering",Repair/Fault,P2,No,240,312,Repair/Fault,P2,False,True,True
+T0130,2026-10-15 10:16,Suir Veterinary Practice,roisín.kennedy@suirvets.example,Toner running low,"Hi team,
+
+The label printer LP-330 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Róisín Kennedy
+Suir Veterinary Practice",Repair/Fault,P3,No,480,164,Repair/Fault,P3,False,True,True
+T0131,2026-10-15 10:32,Boyne Engineering,emma.brennan@boyneeng.example,Strange noise from multifunction printer MFP-4200,"Hi team,
+
+There is a grinding noise from the multifunction printer MFP-4200 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Emma Brennan
+Boyne Engineering",Repair/Fault,P3,No,480,192,Repair/Fault,P3,False,True,True
+T0132,2026-10-15 10:38,Boyne Engineering,ciara.kennedy@boyneeng.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Ciara Kennedy
+Boyne Engineering",Complaint,P2,No,240,85,Complaint,P2,True,True,True
+T0133,2026-10-15 10:41,Barrow Auto Parts,roisín.brennan@barrowauto.example,Nobody can log in to print management,"Hi team,
+
+The print management server is down and all 60 staff are locked out of printing across sites. We need this fixed urgently.
+
+Kind regards,
+Róisín Brennan
+Barrow Auto Parts",Technical Support,P1,No,60,122,Technical Support,P1,True,True,True
+T0134,2026-10-15 10:43,Shannon Dental Group,cian.murray@shannondental.example,Toner running low,"Hi team,
+
+The label printer LP-330 is showing a low toner warning. Please esnd a replacement cartrideg when you can.
+
+Kind regards,
+Cian Murray
+Shannon Dental Group",Repair/Fault,P3,Yes,480,276,Repair/Fault,P3,False,True,True
+T0135,2026-10-15 10:51,Blackwater Dairy Co-op,aoife.kelly@blackwaterdairy.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the POS terminal PT-80? We have the SMTP details.
+
+Kind regards,
+Aoife Kelly
+Blackwater Dairy Co-op",Technical Support,P3,No,480,460,Technical Support,P3,False,True,True
+T0136,2026-10-15 11:17,Blackwater Dairy Co-op,cian.byrne@blackwaterdairy.example,Change delivery address for ORD-19232,"Hi team,
+
+Please change the delivery address on ORD-19232 to our Limerick branch. Thanks.
+
+Kind regards,
+Cian Byrne
+Blackwater Dairy Co-op",Order/Delivery,P3,No,480,402,Order/Delivery,P3,False,True,True
+T0137,2026-10-15 11:17,Shannon Dental Group,cian.murray@shannondental.example,Charged twice - INV-23371,"Hi team,
+
+Our card was charged twice for INV-23371. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Cian Murray
+Shannon Dental Group",Billing/Invoice,P2,No,240,336,Billing/Invoice,P1,True,True,False
+T0138,2026-10-15 11:59,Dunmore Pharmacy Group,darragh.quinn@dunmorepharmacy.example,Remove item from ORD-17886,"Hi team,
+
+Please remove the extra cable kit from ORD-17886, ordered by mistake.
+
+Kind regards,
+Darragh Quinn
+Dunmore Pharmacy Group",Order/Delivery,P3,No,480,532,Order/Delivery,P3,False,True,True
+T0139,2026-10-15 12:15,Atlantic Care Clinics,declan.obrien@atlanticcare.example,Query on INV-24129,"Hi team,
+
+Hi, the amount on INV-24129 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Declan O'Brien
+Atlantic Care Clinics",Billing/Invoice,P3,No,480,447,Billing/Invoice,P3,False,True,True
+T0140,2026-10-15 12:31,Nore Building Supplies,aisling.ryan@norebuild.example,Change delivery address for ORD-17343,"Hi team,
+
+Please change the delivery address on ORD-17343 to our Limerick branch. Thanks.
+
+Kind regards,
+Aisling Ryan
+Nore Building Supplies",Order/Delivery,P3,No,480,544,Order/Delivery,P3,False,True,True
+T0141,2026-10-15 12:56,Moy Education Trust,cian.gallagher@moyedu.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the POS terminal PT-80?
+
+Kind regards,
+Cian Gallagher
+Moy Education Trust",Technical Support,P3,No,480,370,Technical Support,P3,False,True,True
+T0142,2026-10-15 12:59,Suir Veterinary Practice,cian.murphy@suirvets.example,Quote request - 4 units of large-format printer LF-900,"Hi team,
+
+We are looking to buy 4 units of the large-format printer LF-900. Could you send a quote with lead times?
+
+Kind regards,
+Cian Murphy
+Suir Veterinary Practice",Order/Delivery,P3,No,480,624,Order/Delivery,P3,False,True,True
+T0143,2026-10-15 13:05,Burren Foods Ltd,padraig.murray@burrenfoods.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the label printer LP-330 for Windows 11?
+
+Kind regards,
+Padraig Murray
+Burren Foods Ltd",Technical Support,P3,No,480,202,Technical Support,P3,False,True,True
+T0144,2026-10-15 13:15,Slaney Hotels,sean.ryan@slaneyhotels.example,Wrong item delivered ORD-19585,"Hi team,
+
+We received the wrong model against ORD-19585. We need the correct unit by Thursday for a new starter. Please advise.
+
+Kind regards,
+Seán Ryan
+Slaney Hotels",Order/Delivery,P2,No,240,904,Order/Delivery,P2,False,True,True
+T0145,2026-10-15 13:40,Dunmore Pharmacy Group,conor.lynch@dunmorepharmacy.example,Strange noise from label printer LP-330,"Hi team,
+
+There is a grinding noise from the label printer LP-330 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Conor Lynch
+Dunmore Pharmacy Group",Repair/Fault,P3,No,480,342,Repair/Fault,P3,False,True,True
+T0146,2026-10-15 13:45,Dunmore Pharmacy Group,conor.obrien@dunmorepharmacy.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit on INV-24228. Please issue a credit note.
+
+Kind regards,
+Conor O'Brien
+Dunmore Pharmacy Group",Billing/Invoice,P3,No,480,319,Billing/Invoice,P3,False,True,True
+T0147,2026-10-15 13:50,Nore Building Supplies,sinead.lynch@norebuild.example,large-format printer LF-900 jamming repeatedly,"Hi team,
+
+The large-format printer LF-900 at Waterford site jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Sinéad Lynch
+Nore Building Supplies",Repair/Fault,P2,No,240,277,Repair/Fault,P2,False,True,True
+T0148,2026-10-15 13:52,Corrib Logistics Ltd,cian.kelly@corriblogistics.example,Remove item from ORD-94838,"Hi team,
+
+Please remove the extra cable kit from ORD-94838, ordered by mistake.
+
+Kind regards,
+Cian Kelly
+Corrib Logistics Ltd",Order/Delivery,P3,No,480,247,Order/Delivery,P3,False,True,True
+T0149,2026-10-15 14:10,Erne Property Management,niamh.walsh@erneproperty.example,Wrong item delivered ORD-56138,"Hi team,
+
+We received teh wrong model against ORD-56138. We need the correct unit by Thursday for a new starter. Please advise.
+
+Kind regards,
+iNamh Walsh
+Erne Property Management",Order/Delivery,P2,Yes,240,126,Order/Delivery,P2,False,True,True
+T0150,2026-10-15 14:10,Suir Veterinary Practice,mark.quinn@suirvets.example,document scanner DS-12 not working,"Hi team,
+
+Since this morning the document scanner DS-12 won't power on and we can't print delivery dockets for customers. There is a full queue waiting. Can someone come out as soon as possible?
+
+Kind regards,
+Mark Quinn
+Suir Veterinary Practice",Repair/Fault,P1,No,60,66,Repair/Fault,P1,True,True,True
+T0151,2026-10-15 14:22,Shannon Dental Group,conor.doyle@shannondental.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the network switch NS-24? Not urgent.
+
+Kind regards,
+Conor Doyle
+Shannon Dental Group",Technical Support,P3,No,480,463,Technical Support,P1,True,True,False
+T0152,2026-10-15 14:30,Nore Building Supplies,mark.ryan@norebuild.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the large-format printer LF-900 for Windows 11?
+
+Kind regards,
+Mark Ryan
+Nore Building Supplies",Technical Support,P3,No,480,222,Technical Support,P3,False,True,True
+T0153,2026-10-15 14:31,Moy Education Trust,declan.brennan@moyedu.example,Complaint about response times,"Hi team,
+
+We emailed on Tuesday and have had no reply. This is the second time we have had to chase.
+
+Kind regards,
+Declan Brennan
+Moy Education Trust",Complaint,P2,No,240,298,Complaint,P2,True,True,True
+T0154,2026-10-15 14:47,Dunmore Pharmacy Group,mark.byrne@dunmorepharmacy.example,Copy of invoice INV-24641,"Hi team,
+
+Can you resend INV-24641? We cannot find the original.
+
+Kind regards,
+Mark Byrne
+Dunmore Pharmacy Group",Billing/Invoice,P3,No,480,158,Billing/Invoice,P3,False,True,True
+T0155,2026-10-15 16:05,Blackwater Dairy Co-op,liam.murphy@blackwaterdairy.example,Invoice and printer issue,"Hi team,
+
+INV-22521 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Liam Murphy
+Blackwater Dairy Co-op",Billing/Invoice,P3,Yes,480,365,Billing/Invoice,P3,False,True,True
+T0156,2026-10-15 16:38,Erne Property Management,sarah.kelly@erneproperty.example,Change delivery address for ORD-13742,"Hi team,
+
+Please change the delivery address on ORD-13742 to our Limerick branch. Thanks.
+
+Kind regards,
+Sarah Kelly
+Erne Property Management",Order/Delivery,P3,No,480,409,Order/Delivery,P3,False,True,True
+T0157,2026-10-15 16:48,Burren Foods Ltd,orla.murphy@burrenfoods.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the network switch NS-24 for Windows 11?
+
+Kind regards,
+Orla Murphy
+Burren Foods Ltd",Technical Support,P3,No,480,200,Technical Support,P3,False,True,True
+T0158,2026-10-16 08:21,Burren Foods Ltd,cian.quinn@burrenfoods.example,Toner running low,"Hi team,
+
+The label printer LP-330 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Cian Quinn
+Burren Foods Ltd",Repair/Fault,P3,No,480,444,Repair/Fault,P3,False,True,True
+T0159,2026-10-16 08:30,Lee Valley Accountants,declan.brennan@leevalleyacc.example,Can't connect projector PJ-550 after update,"Hi team,
+
+Since the Windows update last night staff cannot print from their laptops to the projector PJ-550. Some colleagues can still print from the shared PC. Please help this week.
+
+Kind regards,
+Declan Brennan
+Lee Valley Accountants",Technical Support,P2,No,240,350,Technical Support,P2,False,True,True
+T0160,2026-10-16 09:00,Corrib Logistics Ltd,declan.ryan@corriblogistics.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the projector PJ-550?
+
+Kind regards,
+Declan Ryan
+Corrib Logistics Ltd",Technical Support,P3,No,480,207,Technical Support,P3,False,True,True
+T0161,2026-10-16 09:16,Suir Veterinary Practice,sarah.lynch@suirvets.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Dublin head office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Sarah Lynch
+Suir Veterinary Practice",Repair/Fault,P2,No,240,90,Repair/Fault,P2,False,True,True
+T0162,2026-10-16 09:24,Erne Property Management,padraig.doyle@erneproperty.example,Remove item from ORD-88240,"Hi team,
+
+Please remove the extra cable kit from ORD-88240, ordered by mistake.
+
+Kind regards,
+Padraig Doyle
+Erne Property Management",Order/Delivery,P3,No,480,506,Order/Delivery,P3,False,True,True
+T0163,2026-10-16 09:37,Blackwater Dairy Co-op,aisling.lynch@blackwaterdairy.example,label printer LP-330 intermittently offline,"Hi team,
+
+The label printer LP-330 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Aisling Lynch
+Blackwater Dairy Co-op",Repair/Fault,P2,No,240,586,Repair/Fault,P2,False,True,True
+T0164,2026-10-16 09:42,Barrow Auto Parts,cian.gallagher@barrowauto.example,label printer LP-330 jamming repeatedly,"Hi team,
+
+The label printer LP-330 at Waterford site jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Cian Gallagher
+Barrow Auto Parts",Repair/Fault,P2,No,240,530,Repair/Fault,P2,False,True,True
+T0165,2026-10-16 09:43,Atlantic Care Clinics,ciara.walsh@atlanticcare.example,Update PO number,"Hi team,
+
+Please add PO number 4427 to INV-28228 and resend.
+
+Kind regards,
+Ciara Walsh
+Atlantic Care Clinics",Billing/Invoice,P3,No,480,678,Billing/Invoice,P3,False,True,True
+T0166,2026-10-16 09:45,Suir Veterinary Practice,liam.lynch@suirvets.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Liam Lynch
+Suir Veterinary Practice",Complaint,P2,No,240,90,Complaint,P2,True,True,True
+T0167,2026-10-16 09:57,Slaney Hotels,grace.brennan@slaneyhotels.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the document scanner DS-12 for Windows 11?
+
+Kind regards,
+Grace Brennan
+Slaney Hotels",Technical Support,P3,No,480,290,Technical Support,P3,False,True,True
+T0168,2026-10-16 09:57,Suir Veterinary Practice,brian.lynch@suirvets.example,Quote request - 11 units of multifunction printer MFP-4200,"Hi team,
+
+We are looking to buy 11 units of the multifunction printer MFP-4200. Could you send a quote with lead times?
+
+Kind regards,
+Brian Lynch
+Suir Veterinary Practice",Order/Delivery,P3,No,480,1139,Order/Delivery,P3,False,True,True
+T0169,2026-10-16 10:14,Dunmore Pharmacy Group,conor.brennan@dunmorepharmacy.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Conor Brennan
+Dunmore Pharmacy Group",Complaint,P2,No,240,135,Complaint,P3,True,True,False
+T0170,2026-10-16 10:29,Corrib Logistics Ltd,mark.brennan@corriblogistics.example,Remove item from ORD-48696,"Hi team,
+
+Please remove the extra cable kit from ORD-48696, ordered by mistake.
+
+Kind regards,
+Mark Brennan
+Corrib Logistics Ltd",Order/Delivery,P3,No,480,815,Order/Delivery,P3,False,True,True
+T0171,2026-10-16 10:39,Shannon Dental Group,orla.byrne@shannondental.example,Change delivery address for ORD-88509,"Hi team,
+
+Please change the delivery address on ORD-88509 to our Limerick branch. Thanks.
+
+Kind regards,
+Orla Byrne
+Shannon Dental Group",Order/Delivery,P3,No,480,878,Order/Delivery,P3,False,True,True
+T0172,2026-10-16 11:22,Barrow Auto Parts,niamh.byrne@barrowauto.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the network switch NS-24 for Windows 11?
+
+Kind regards,
+Niamh Byrne
+Barrow Auto Parts",Technical Support,P3,No,480,164,Technical Support,P3,False,True,True
+T0173,2026-10-16 12:24,Boyne Engineering,ciara.quinn@boyneeng.example,Streaks on printouts,"Hi team,
+
+Prints from the multifunction printer MFP-4200 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Ciara Quinn
+Boyne Engineering",Repair/Fault,P2,No,240,561,Repair/Fault,P2,False,True,True
+T0174,2026-10-16 13:22,Suir Veterinary Practice,padraig.quinn@suirvets.example,Query on INV-29973,"Hi team,
+
+Hi, the amount on INV-29973 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Padraig Quinn
+Suir Veterinary Practice",Billing/Invoice,P3,No,480,193,Billing/Invoice,P3,False,True,True
+T0175,2026-10-16 13:29,Burren Foods Ltd,sarah.ryan@burrenfoods.example,Change delivery address for ORD-86066,"Hi team,
+
+Please change the delivery address on ORD-86066 to our Limerick branch. Thanks.
+
+Kind regards,
+Sarah Ryan
+Burren Foods Ltd",Order/Delivery,P3,No,480,376,Order/Delivery,P3,False,True,True
+T0176,2026-10-16 14:28,Wicklow Print & Pack,emma.walsh@wicklowpack.example,Quote request - 10 units of POS terminal PT-80,"Hi team,
+
+We are looking to buy 10 units of the POS terminal PT-80. Could you send a quote with lead times?
+
+Kind regards,
+Emma Walsh
+Wicklow Print & Pack",Order/Delivery,P3,No,480,394,Order/Delivery,P3,False,True,True
+T0177,2026-10-16 14:31,Wicklow Print & Pack,brian.gallagher@wicklowpack.example,Wrong item delivered ORD-59270,"Hi team,
+
+We received the wrong model against ORD-59270. We need the correct unit by Thursday for a new starter. Please advise.
+
+Kind regards,
+Brian Gallagher
+Wicklow Print & Pack",Order/Delivery,P2,No,240,170,Order/Delivery,P2,False,True,True
+T0178,2026-10-16 14:48,Blackwater Dairy Co-op,declan.murray@blackwaterdairy.example,Streaks on printouts,"Hi team,
+
+Prints from the multifunction printer MFP-4200 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Declan Murray
+Blackwater Dairy Co-op",Repair/Fault,P2,No,240,171,Repair/Fault,P2,False,True,True
+T0179,2026-10-16 15:18,Corrib Logistics Ltd,declan.doyle@corriblogistics.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the projector PJ-550? Not urgent.
+
+Kind regards,
+Declan Doyle
+Corrib Logistics Ltd",Technical Support,P3,No,480,460,Technical Support,P1,True,True,False
+T0180,2026-10-16 15:19,Nore Building Supplies,roisín.lynch@norebuild.example,Query on INV-25609,"Hi team,
+
+Hi, the amount on INV-25609 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Róisín Lynch
+Nore Building Supplies",Billing/Invoice,P3,No,480,345,Billing/Invoice,P3,False,True,True
+T0181,2026-10-16 15:28,Moy Education Trust,conor.kelly@moyedu.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Conor Kelly
+Moy Education Trust",Complaint,P2,No,240,314,Complaint,P3,True,True,False
+T0182,2026-10-16 15:28,Corrib Logistics Ltd,cian.doyle@corriblogistics.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the label printer LP-330? Not urgent.
+
+Kind regards,
+Cian Doyle
+Corrib Logistics Ltd",Technical Support,P3,No,480,322,Technical Support,P1,True,True,False
+T0183,2026-10-16 15:35,Blackwater Dairy Co-op,cian.ryan@blackwaterdairy.example,Invoice and printer issue,"Hi team,
+
+INV-20444 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Cian Ryan
+Blackwater Dairy Co-op",Billing/Invoice,P3,Yes,480,655,Billing/Invoice,P3,False,True,True
+T0184,2026-10-16 16:03,Boyne Engineering,orla.moore@boyneeng.example,Change delivery address for ORD-57820,"Hi team,
+
+Please change the delivery address on ORD-57820 to our Limerick branch. Thanks.
+
+Kind regards,
+Orla Moore
+Boyne Engineering",Order/Delivery,P3,No,480,359,Order/Delivery,P3,False,True,True
+T0185,2026-10-16 16:17,Wicklow Print & Pack,liam.kelly@wicklowpack.example,Update PO number,"Hi team,
+
+Please add PO number 4534 to INV-27565 and resend.
+
+Kind regards,
+Liam Kelly
+Wicklow Print & Pack",Billing/Invoice,P3,No,480,369,Billing/Invoice,P3,False,True,True
+T0186,2026-10-16 16:44,Shannon Dental Group,orla.quinn@shannondental.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The network switch NS-24 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Orla Quinn
+Shannon Dental Group",Repair/Fault,P1,Yes,60,228,Order/Delivery,P1,True,False,True
+T0187,2026-10-16 16:54,Lee Valley Accountants,aoife.walsh@leevalleyacc.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Aoife Walsh
+Lee Valley Accountants",Complaint,P2,No,240,42,Complaint,P3,True,True,False
+T0188,2026-10-16 17:32,Moy Education Trust,emma.byrne@moyedu.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the projector PJ-550? Not urgent.
+
+Kind regards,
+Emma Byrne
+Moy Education Trust",Technical Support,P3,No,480,428,Technical Support,P1,True,True,False
+T0189,2026-10-16 17:53,Liffey Legal LLP,aoife.kelly@liffeylegal.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the POS terminal PT-80? Not urgent.
+
+Kind regards,
+Aoife Kelly
+Liffey Legal LLP",Technical Support,P3,No,480,75,Technical Support,P1,True,True,False
+T0190,2026-10-19 08:47,Burren Foods Ltd,padraig.gallagher@burrenfoods.example,Streaks on printouts,"Hi team,
+
+Prints from the large-format printer LF-900 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Padraig Gallagher
+Burren Foods Ltd",Repair/Fault,P2,No,240,287,Repair/Fault,P2,False,True,True
+T0191,2026-10-19 09:15,Erne Property Management,roisín.quinn@erneproperty.example,Routine service visit,"Hi team,
+
+Hi, our multifunction printer MFP-4200 at Dublin head office is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Róisín Quinn
+Erne Property Management",Repair/Fault,P3,No,480,460,Repair/Fault,P3,False,True,True
+T0192,2026-10-19 09:22,Nore Building Supplies,liam.byrne@norebuild.example,Streaks on printouts,"Hi team,
+
+Prints from the large-format printer LF-900 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Liam Byrne
+Nore Building Supplies",Repair/Fault,P2,No,240,259,Repair/Fault,P2,False,True,True
+T0193,2026-10-19 09:31,Lee Valley Accountants,conor.mccarthy@leevalleyacc.example,Order status ORD-58967,"Hi team,
+
+Hi, could you tell me where order ORD-58967 is please? No rush.
+
+Kind regards,
+Conor McCarthy
+Lee Valley Accountants",Order/Delivery,P3,No,480,462,Order/Delivery,P3,False,True,True
+T0194,2026-10-19 09:32,Slaney Hotels,sarah.kelly@slaneyhotels.example,Toner running low,"Hi team,
+
+The large-format printer LF-900 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Sarah Kelly
+Slaney Hotels",Repair/Fault,P3,No,480,278,Repair/Fault,P3,False,True,True
+T0195,2026-10-19 09:36,Erne Property Management,niamh.murphy@erneproperty.example,Change delivery address for ORD-46559,"Hi team,
+
+Please change the delivery address on ORD-46559 to our Limerick branch. Thanks.
+
+Kind regards,
+Niamh Murphy
+Erne Property Management",Order/Delivery,P3,No,480,790,Order/Delivery,P3,False,True,True
+T0196,2026-10-19 09:40,Blackwater Dairy Co-op,sinead.kelly@blackwaterdairy.example,URGENT: document scanner DS-12 down at Waterford site,"Hi team,
+
+Our document scanner DS-12 at Waterford site has stopped working completely and we cannot take card payments. This is urgent, please send an engineer today.
+
+Kind regards,
+Sinéad Kelly
+Blackwater Dairy Co-op",Repair/Fault,P1,No,60,84,Repair/Fault,P1,True,True,True
+T0197,2026-10-19 09:57,Dunmore Pharmacy Group,cian.murphy@dunmorepharmacy.example,Streaks on printouts,"Hi team,
+
+Prints from the label printer LP-330 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Cian Murphy
+Dunmore Pharmacy Group",Repair/Fault,P2,No,240,151,Repair/Fault,P2,False,True,True
+T0198,2026-10-19 10:05,Corrib Logistics Ltd,ciara.gallagher@corriblogistics.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the POS terminal PT-80? Not urgent.
+
+Kind regards,
+Ciara Gallagher
+Corrib Logistics Ltd",Technical Support,P3,No,480,119,Technical Support,P1,True,True,False
+T0199,2026-10-19 10:13,Lee Valley Accountants,aoife.walsh@leevalleyacc.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The multifunction printer MFP-4200 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Aoife Walsh
+Lee Valley Accountants",Repair/Fault,P1,Yes,60,86,Order/Delivery,P1,True,False,True
+T0200,2026-10-19 10:13,Dunmore Pharmacy Group,sean.walsh@dunmorepharmacy.example,Order status ORD-94600,"Hi team,
+
+Hi, could you tell me where order ORD-94600 is please? No rush.
+
+Kind regards,
+Seán Walsh
+Dunmore Pharmacy Group",Order/Delivery,P3,No,480,368,Order/Delivery,P3,False,True,True
+T0201,2026-10-19 10:20,Nore Building Supplies,aoife.ryan@norebuild.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit on INV-24429. Please issue a credit note.
+
+Kind regards,
+Aoife Ryan
+Nore Building Supplies",Billing/Invoice,P3,No,480,143,Billing/Invoice,P3,False,True,True
+T0202,2026-10-19 10:23,Blackwater Dairy Co-op,mark.murray@blackwaterdairy.example,Invoice and printer issue,"Hi team,
+
+INV-20700 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Mark Murray
+Blackwater Dairy Co-op",Billing/Invoice,P3,Yes,480,472,Billing/Invoice,P3,False,True,True
+T0203,2026-10-19 11:09,Wicklow Print & Pack,liam.mccarthy@wicklowpack.example,Order status ORD-35395,"Hi team,
+
+Hi, could you tell me where order ORD-35395 is please? No rush.
+
+Kind regards,
+Liam McCarthy
+Wicklow Print & Pack",Order/Delivery,P3,No,480,790,Order/Delivery,P3,False,True,True
+T0204,2026-10-19 12:12,Barrow Auto Parts,mark.murphy@barrowauto.example,large-format printer LF-900 jamming repeatedly,"Hi team,
+
+The large-format printer LF-900 at Dublin head office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Mark Murphy
+Barrow Auto Parts",Repair/Fault,P2,No,240,172,Repair/Fault,P2,False,True,True
+T0205,2026-10-19 12:21,Dunmore Pharmacy Group,aoife.ryan@dunmorepharmacy.example,Quote request - 11 units of label printer LP-330,"Hi team,
+
+We are looking to buy 11 units of the label printer LP-330. Could you send a quote with lead times?
+
+Kind regards,
+Aoife Ryan
+Dunmore Pharmacy Group",Order/Delivery,P3,No,480,468,Order/Delivery,P3,False,True,True
+T0206,2026-10-19 12:49,Blackwater Dairy Co-op,declan.brennan@blackwaterdairy.example,Nobody can log in to print management,"Hi team,
+
+The print management server is down and all 60 staff are locked out of printing across sites. We need this fixed urgently.
+
+Kind regards,
+Declan Brennan
+Blackwater Dairy Co-op",Technical Support,P1,No,60,188,Technical Support,P1,True,True,True
+T0207,2026-10-19 12:55,Erne Property Management,cian.byrne@erneproperty.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the document scanner DS-12? Not urgent.
+
+Kind regards,
+Cian Byrne
+Erne Property Management",Technical Support,P3,No,480,333,Technical Support,P1,True,True,False
+T0208,2026-10-19 13:20,Liffey Legal LLP,sean.doyle@liffeylegal.example,Routine service visit,"Hi team,
+
+Hi, our large-format printer LF-900 at Galway depot is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Seán Doyle
+Liffey Legal LLP",Repair/Fault,P3,No,480,319,Repair/Fault,P3,False,True,True
+T0209,2026-10-19 13:29,Erne Property Management,sarah.kelly@erneproperty.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Cork office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Sarah Kelly
+Erne Property Management",Repair/Fault,P2,No,240,349,Repair/Fault,P2,False,True,True
+T0210,2026-10-19 13:39,Corrib Logistics Ltd,roisín.quinn@corriblogistics.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the network switch NS-24? Not urgent.
+
+Kind regards,
+Róisín Quinn
+Corrib Logistics Ltd",Technical Support,P3,No,480,181,Technical Support,P1,True,True,False
+T0211,2026-10-19 13:55,Nore Building Supplies,grace.murray@norebuild.example,Change delivery address for ORD-23606,"Hi team,
+
+Please change the delivery address on ORD-23606 to our Limerick branch. Thanks.
+
+Kind regards,
+Grace Murray
+Nore Building Supplies",Order/Delivery,P3,No,480,713,Order/Delivery,P3,False,True,True
+T0212,2026-10-19 14:02,Moy Education Trust,darragh.obrien@moyedu.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Darragh O'Brien
+Moy Education Trust",Complaint,P2,No,240,186,Complaint,P3,True,True,False
+T0213,2026-10-19 14:35,Boyne Engineering,cian.kelly@boyneeng.example,large-format printer LF-900 intermittently offline,"Hi team,
+
+The large-format printer LF-900 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Cian Kelly
+Boyne Engineering",Repair/Fault,P2,No,240,294,Repair/Fault,P2,False,True,True
+T0214,2026-10-19 14:40,Corrib Logistics Ltd,orla.kennedy@corriblogistics.example,Change delivery address for ORD-44796,"Hi team,
+
+Please change the delivery address on ORD-44796 to our Limerick branch. Thanks.
+
+Kind regards,
+Orla Kennedy
+Corrib Logistics Ltd",Order/Delivery,P3,No,480,233,Order/Delivery,P3,False,True,True
+T0215,2026-10-19 15:03,Erne Property Management,cian.quinn@erneproperty.example,Query on INV-27028,"Hi team,
+
+Hi, the amount on INV-27028 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Cian Quinn
+Erne Property Management",Billing/Invoice,P3,No,480,510,Billing/Invoice,P3,False,True,True
+T0216,2026-10-19 15:16,Shannon Dental Group,sean.ryan@shannondental.example,label printer LP-330 jamming repeatedly,"Hi team,
+
+The label printer LP-330 at Waterford site jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Seán Ryan
+Shannon Dental Group",Repair/Fault,P2,No,240,210,Repair/Fault,P2,False,True,True
+T0217,2026-10-19 15:17,Atlantic Care Clinics,sarah.byrne@atlanticcare.example,URGENT: large-format printer LF-900 down at Dublin head office,"Hi team,
+
+Our large-format printer LF-900 at Dublin head office has stopped working completely and we cannot take card payments. This is urgent, please send an engineer today.
+
+Kind regards,
+Sarah Byrne
+Atlantic Care Clinics",Repair/Fault,P1,No,60,52,Repair/Fault,P1,True,True,True
+T0218,2026-10-19 15:36,Blackwater Dairy Co-op,eoin.walsh@blackwaterdairy.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the label printer LP-330 for Windows 11?
+
+Kind regards,
+Eoin Walsh
+Blackwater Dairy Co-op",Technical Support,P3,No,480,370,Technical Support,P3,False,True,True
+T0219,2026-10-19 15:43,Erne Property Management,padraig.lynch@erneproperty.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Padraig Lynch
+Erne Property Management",Complaint,P2,No,240,66,Complaint,P2,True,True,True
+T0220,2026-10-19 15:45,Burren Foods Ltd,ciara.moore@burrenfoods.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit no INV-26283. Please issue a cerdit note.
+
+Kind regards,
+Ciara Moore
+Burren Foods Ltd",Billing/Invoice,P3,Yes,480,277,Billing/Invoice,P3,False,True,True
+T0221,2026-10-19 16:30,Atlantic Care Clinics,declan.moore@atlanticcare.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the label printer LP-330 for Windows 11?
+
+Kind regards,
+Declan Moore
+Atlantic Care Clinics",Technical Support,P3,No,480,511,Technical Support,P3,False,True,True
+T0222,2026-10-19 17:03,Erne Property Management,liam.lynch@erneproperty.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the POS terminal PT-80? We have the SMTP details.
+
+Kind regards,
+Liam Lynch
+Enre Property Management",Technical Support,P3,Yes,480,324,Technical Support,P3,False,True,True
+T0223,2026-10-20 08:05,Barrow Auto Parts,roisín.murray@barrowauto.example,Streaks on printouts,"Hi team,
+
+Prints from the large-format printer LF-900 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Róisín Murray
+Barrow Auto Parts",Repair/Fault,P2,No,240,132,Repair/Fault,P2,False,True,True
+T0224,2026-10-20 08:14,Boyne Engineering,grace.byrne@boyneeng.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Grace Byrne
+Boyne Engineering",Complaint,P2,No,240,644,Complaint,P2,True,True,True
+T0225,2026-10-20 08:31,Liffey Legal LLP,aoife.lynch@liffeylegal.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Aoife Lynch
+Liffey Legal LLP",Complaint,P2,No,240,95,Complaint,P2,True,True,True
+T0226,2026-10-20 08:35,Atlantic Care Clinics,brian.byrne@atlanticcare.example,Strange noise from large-format printer LF-900,"Hi team,
+
+There is a grinding noise from the large-format printer LF-900 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Brian Byrne
+Atlantic Care Clinics",Repair/Fault,P3,No,480,644,Repair/Fault,P3,False,True,True
+T0227,2026-10-20 09:13,Moy Education Trust,declan.moore@moyedu.example,Change delivery address for ORD-57737,"Hi team,
+
+Please change the delivery address on ORD-57737 to our Limerick branch. Thanks.
+
+Kind regards,
+Declan Moore
+Moy Education Trust",Order/Delivery,P3,No,480,174,Order/Delivery,P3,False,True,True
+T0228,2026-10-20 09:13,Wicklow Print & Pack,cian.kelly@wicklowpack.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the document scanner DS-12? We have the SMTP details.
+
+Kind regards,
+Cian Kelly
+Wicklow Print & Pack",Technical Support,P3,No,480,978,Technical Support,P3,False,True,True
+T0229,2026-10-20 09:26,Nore Building Supplies,padraig.gallagher@norebuild.example,Order status ORD-41989,"Hi team,
+
+Hi, could you tell me where order ORD-41989 is please? No rush.
+
+Kind regards,
+Padraig Gallagher
+Nore Building Supplies",Order/Delivery,P3,No,480,294,Order/Delivery,P3,False,True,True
+T0230,2026-10-20 09:32,Shannon Dental Group,emma.kelly@shannondental.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The label printer LP-330 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Emma Kelly
+Shannon Dental Group",Repair/Fault,P1,Yes,60,55,Order/Delivery,P1,True,False,True
+T0231,2026-10-20 09:46,Barrow Auto Parts,sinead.lynch@barrowauto.example,Change delivery address for ORD-52102,"Hi team,
+
+Please change the delivery address on ORD-52102 to our Limerick branch. Thanks.
+
+Kind regards,
+Sinéad Lynch
+Barrow Auto Parts",Order/Delivery,P3,No,480,945,Order/Delivery,P3,False,True,True
+T0232,2026-10-20 09:48,Suir Veterinary Practice,sinead.ryan@suirvets.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the label printer LP-330 for Windows 11?
+
+Kind regards,
+Sinéad Ryan
+Suir Veterinary Practice",Technical Support,P3,No,480,694,Technical Support,P3,False,True,True
+T0233,2026-10-20 10:12,Moy Education Trust,declan.quinn@moyedu.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Declan Quinn
+Moy Education Trust",Complaint,P2,No,240,196,Complaint,P2,True,True,True
+T0234,2026-10-20 10:34,Blackwater Dairy Co-op,aoife.lynch@blackwaterdairy.example,Update PO number,"Hi team,
+
+Please add PO number 4108 to INV-29814 and resend.
+
+Kind regards,
+Aoife Lynch
+Blackwater Dairy Co-op",Billing/Invoice,P3,No,480,601,Billing/Invoice,P3,False,True,True
+T0235,2026-10-20 10:53,Atlantic Care Clinics,grace.ryan@atlanticcare.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the multifunction printer MFP-4200 for Windows 11?
+
+Kind regards,
+Grace Ryan
+Atlantic Care Clinics",Technical Support,P3,No,480,291,Technical Support,P3,False,True,True
+T0236,2026-10-20 10:56,Suir Veterinary Practice,grace.doyle@suirvets.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Sligo store jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Grace Doyle
+Suir Veterinary Practice",Repair/Fault,P2,No,240,43,Repair/Fault,P2,False,True,True
+T0237,2026-10-20 10:59,Boyne Engineering,conor.murray@boyneeng.example,Toner running low,"Hi team,
+
+The large-format printer LF-900 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Conor Murray
+Boyne Engineering",Repair/Fault,P3,No,480,875,Repair/Fault,P3,False,True,True
+T0238,2026-10-20 11:31,Lee Valley Accountants,aisling.walsh@leevalleyacc.example,Remove item from ORD-71706,"Hi team,
+
+Please remove the extra cable kit from ORD-71706, ordered by mistake.
+
+Kind regards,
+Aisling Walsh
+Lee Valley Accountants",Order/Delivery,P3,No,480,306,Order/Delivery,P3,False,True,True
+T0239,2026-10-20 11:59,Moy Education Trust,liam.walsh@moyedu.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Cork office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Liam Walsh
+Moy Education Trust",Repair/Fault,P2,No,240,262,Repair/Fault,P2,False,True,True
+T0240,2026-10-20 12:06,Suir Veterinary Practice,mark.moore@suirvets.example,URGENT: projector PJ-550 down at Cork office,"Hi team,
+
+Our projector PJ-550 at Cork office has stopped working completely and we cannot scan signed contracts. This is urgent, please send an engineer today.
+
+Kind regards,
+Mark Moore
+Suir Veterinary Practice",Repair/Fault,P1,No,60,108,Repair/Fault,P1,True,True,True
+T0241,2026-10-20 12:07,Burren Foods Ltd,liam.walsh@burrenfoods.example,label printer LP-330 intermittently offline,"Hi team,
+
+The label printer LP-330 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Liam Walsh
+Burren Foods Ltd",Repair/Fault,P2,No,240,148,Repair/Fault,P2,False,True,True
+T0242,2026-10-20 12:35,Shannon Dental Group,brian.byrne@shannondental.example,Remove item from ORD-68304,"Hi team,
+
+Please remove the extra cable kit from ORD-68304, ordered by mistake.
+
+Kind regards,
+Brian Byrne
+Shannon Dental Group",Order/Delivery,P3,No,480,294,Order/Delivery,P3,False,True,True
+T0243,2026-10-20 12:49,Barrow Auto Parts,sarah.gallagher@barrowauto.example,multifunction printer MFP-4200 intermittently offline,"Hi team,
+
+The multifunction printer MFP-4200 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Sarah Gallagher
+Barrow Auto Parts",Repair/Fault,P2,No,240,298,Repair/Fault,P2,False,True,True
+T0244,2026-10-20 12:54,Burren Foods Ltd,ciara.ryan@burrenfoods.example,multifunction printer MFP-4200 intermittently offline,"Hi team,
+
+The multifunction printer MFP-4200 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Ciara Ryan
+Burren Foods Ltd",Repair/Fault,P2,No,240,280,Repair/Fault,P2,False,True,True
+T0245,2026-10-20 13:14,Blackwater Dairy Co-op,grace.gallagher@blackwaterdairy.example,Routine service visit,"Hi team,
+
+Hi, our label printer LP-330 at Athlone clinic is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Grace Gallagher
+Blackwater Dairy Co-op",Repair/Fault,P3,No,480,206,Repair/Fault,P3,False,True,True
+T0246,2026-10-20 14:04,Liffey Legal LLP,liam.murphy@liffeylegal.example,Remove item from ORD-35492,"Hi team,
+
+Please remove the extra cable kit from ORD-35492, ordered by mistake.
+
+Kind regards,
+Liam Murphy
+Liffey Legal LLP",Order/Delivery,P3,No,480,471,Order/Delivery,P3,False,True,True
+T0247,2026-10-20 14:18,Liffey Legal LLP,liam.lynch@liffeylegal.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the POS terminal PT-80 for Windows 11?
+
+Kind regards,
+Liam Lynch
+Liffey Legal LLP",Technical Support,P3,No,480,479,Technical Support,P3,False,True,True
+T0248,2026-10-20 14:20,Burren Foods Ltd,mark.kennedy@burrenfoods.example,Remove item from ORD-77064,"Hi team,
+
+Please remove the extra cable kit from ORD-77064, ordered by mistake.
+
+Kind regards,
+Mark Kennedy
+Burren Foods Ltd",Order/Delivery,P3,No,480,412,Order/Delivery,P3,False,True,True
+T0249,2026-10-20 14:51,Nore Building Supplies,mark.doyle@norebuild.example,Remove item from ORD-52110,"Hi team,
+
+Please remove the extra cable kit from ORD-52110, ordered by mistake.
+
+Kind regards,
+Mark Doyle
+Nore Building Supplies",Order/Delivery,P3,No,480,230,Order/Delivery,P3,False,True,True
+T0250,2026-10-20 15:01,Boyne Engineering,emma.quinn@boyneeng.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the multifunction printer MFP-4200? We have the SMTP details.
+
+Kind regards,
+Emma Quinn
+Boyne Engineering",Technical Support,P3,No,480,161,Technical Support,P3,False,True,True
+T0251,2026-10-20 15:02,Atlantic Care Clinics,mark.byrne@atlanticcare.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Mark Byrne
+Atlantic Care Clinics",Complaint,P2,No,240,363,Complaint,P2,True,True,True
+T0252,2026-10-20 15:10,Blackwater Dairy Co-op,darragh.brennan@blackwaterdairy.example,Can't connect multifunction printer MFP-4200 after update,"Hi team,
+
+Since the Windows update last night staff cannot print from their laptops to the multifunction printer MFP-4200. Some colleagues can still print from the shared PC. Please help this week.
+
+Kind regards,
+Darragh Brennan
+Blackwater Dairy Co-op",Technical Support,P2,No,240,918,Technical Support,P2,False,True,True
+T0253,2026-10-20 15:13,Atlantic Care Clinics,mark.kelly@atlanticcare.example,Driver for Windows 11,"Hi team,
+
+Where can I download the driver for the large-format printer LF-900 for Windows 11?
+
+Kind regards,
+Mark Kelly
+Atlantic Care Clinics",Technical Support,P3,No,480,642,Technical Support,P3,False,True,True
+T0254,2026-10-20 15:16,Liffey Legal LLP,mark.mccarthy@liffeylegal.example,Order status ORD-32964,"Hi team,
+
+Hi, could you tell me where order ORD-32964 is please? No rush.
+
+Kind regards,
+Mark McCarthy
+Liffey Legal LLP",Order/Delivery,P3,No,480,371,Order/Delivery,P3,False,True,True
+T0255,2026-10-20 15:21,Atlantic Care Clinics,padraig.murphy@atlanticcare.example,Strange noise from label printer LP-330,"Hi team,
+
+There is a grinding noise from the label printer LP-330 when printing, but it still works fine. No rush, just wanted to flag it.
+
+Kind regards,
+Padraig Murphy
+Atlantic Care Clinics",Repair/Fault,P3,No,480,473,Repair/Fault,P3,False,True,True
+T0256,2026-10-20 15:28,Boyne Engineering,declan.brennan@boyneeng.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Declan Brennan
+Boyne Engineering",Complaint,P2,No,240,332,Complaint,P2,True,True,True
+T0257,2026-10-20 16:04,Slaney Hotels,sean.doyle@slaneyhotels.example,Query on INV-29545,"Hi team,
+
+Hi, the amount on INV-29545 looks higher than the quote we agreed. Could you send a breakdown?
+
+Kind regards,
+Seán Doyle
+Slaney Hotels",Billing/Invoice,P3,No,480,174,Billing/Invoice,P3,False,True,True
+T0258,2026-10-20 16:45,Blackwater Dairy Co-op,grace.murray@blackwaterdairy.example,label printer LP-330 intermittently offline,"Hi team,
+
+The label printer LP-330 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Grace Murray
+Blackwater Dairy Co-op",Repair/Fault,P2,No,240,228,Repair/Fault,P2,False,True,True
+T0259,2026-10-20 17:31,Corrib Logistics Ltd,roisín.lynch@corriblogistics.example,label printer LP-330 jamming repeatedly,"Hi team,
+
+The label printer LP-330 at Athlone clinic jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Róisín Lynch
+Corrib Logistics Ltd",Repair/Fault,P2,No,240,288,Repair/Fault,P2,False,True,True
+T0260,2026-10-21 08:07,Erne Property Management,niamh.murphy@erneproperty.example,Change delivery address for ORD-42506,"Hi team,
+
+Please change the delivery address on ORD-42506 to our Limerick branch. Thanks.
+
+Kind regards,
+Niamh Murphy
+Erne Property Management",Order/Delivery,P3,No,480,505,Order/Delivery,P3,False,True,True
+T0261,2026-10-21 08:50,Moy Education Trust,cian.moore@moyedu.example,Toner running low,"Hi team,
+
+The large-format printer LF-900 is showing a low toner warning. Please send a replacement cartridge when you can.
+
+Kind regards,
+Cian Moore
+Moy Education Trust",Repair/Fault,P3,No,480,148,Repair/Fault,P3,False,True,True
+T0262,2026-10-21 09:06,Erne Property Management,emma.brennan@erneproperty.example,URGENT: projector PJ-550 down at Sligo store,"Hi team,
+
+Our projector PJ-550 at Sligo store has stopped working completely and we cannot print invoices. This is urgent, please send an engineer today.
+
+Kind regards,
+Emma Brennan
+Erne Property Management",Repair/Fault,P1,No,60,59,Repair/Fault,P1,True,True,True
+T0263,2026-10-21 09:06,Barrow Auto Parts,cian.murphy@barrowauto.example,Change delivery address for ORD-36219,"Hi team,
+
+Please change the delivery address on ORD-36219 to our Limerick branch. Thanks.
+
+Kind regards,
+Cian Murphy
+Barrow Auto Parts",Order/Delivery,P3,No,480,536,Order/Delivery,P3,False,True,True
+T0264,2026-10-21 09:16,Dunmore Pharmacy Group,sarah.moore@dunmorepharmacy.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the multifunction printer MFP-4200?
+
+Kind regards,
+Sarah Moore
+Dunmore Pharmacy Group",Technical Support,P3,No,480,195,Technical Support,P3,False,True,True
+T0265,2026-10-21 09:17,Shannon Dental Group,conor.byrne@shannondental.example,Routine service visit,"Hi team,
+
+Hi, our multifunction printer MFP-4200 at Galway depot is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Conor Byrne
+Shannon Dental Group",Repair/Fault,P3,No,480,265,Repair/Fault,P3,False,True,True
+T0266,2026-10-21 09:23,Nore Building Supplies,aoife.brennan@norebuild.example,Invoice and printer issue,"Hi team,
+
+INV-24912 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Aoife Brennan
+Nore Building Supplies",Billing/Invoice,P3,Yes,480,457,Billing/Invoice,P3,False,True,True
+T0267,2026-10-21 09:28,Boyne Engineering,brian.walsh@boyneeng.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Brian Walsh
+Boyne Engineering",Complaint,P2,No,240,100,Complaint,P3,True,True,False
+T0268,2026-10-21 09:43,Atlantic Care Clinics,sean.quinn@atlanticcare.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the POS terminal PT-80?
+
+Kind regards,
+Seán Quinn
+Atlantic Care Clinics",Technical Support,P3,No,480,207,Technical Support,P3,False,True,True
+T0269,2026-10-21 09:48,Dunmore Pharmacy Group,emma.doyle@dunmorepharmacy.example,Charged twice - INV-20984,"Hi team,
+
+Our card was charged twice for INV-20984. Please refund the duplicate payment as soon as possible, our finance team needs it reconciled this week.
+
+Kind regards,
+Emma Doyle
+Dunmore Pharmacy Group",Billing/Invoice,P2,No,240,464,Billing/Invoice,P1,True,True,False
+T0270,2026-10-21 09:50,Liffey Legal LLP,aoife.mccarthy@liffeylegal.example,Order status ORD-63911,"Hi team,
+
+Hi, could you tell me where order ORD-63911 is please? No rush.
+
+Kind regards,
+Aoife McCarthy
+Liffey Legal LLP",Order/Delivery,P3,No,480,295,Order/Delivery,P3,False,True,True
+T0271,2026-10-21 09:50,Nore Building Supplies,mark.byrne@norebuild.example,Escalation,"Hi team,
+
+No one has called back in 3 days. Our director is asking why we pay for this service. We expect a call within the hour.
+
+Kind regards,
+Mark Byrne
+Nore Building Supplies",Complaint,P1,Yes,60,47,Complaint,P1,True,True,True
+T0272,2026-10-21 10:04,Shannon Dental Group,padraig.murphy@shannondental.example,Quote request - 14 units of multifunction printer MFP-4200,"Hi team,
+
+We are looking to buy 14 units of the multifunction printer MFP-4200. Could you send a quote with lead times?
+
+Kind regards,
+Padraig Murphy
+Shannon Dental Group",Order/Delivery,P3,No,480,243,Order/Delivery,P3,False,True,True
+T0273,2026-10-21 10:10,Wicklow Print & Pack,darragh.walsh@wicklowpack.example,Remove item from ORD-21803,"Hi team,
+
+Please remove the extra cable kit from ORD-21803, ordered by mistake.
+
+Kind regards,
+Darragh Walsh
+Wicklow Print & Pack",Order/Delivery,P3,No,480,558,Order/Delivery,P3,False,True,True
+T0274,2026-10-21 10:13,Lee Valley Accountants,declan.kennedy@leevalleyacc.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the POS terminal PT-80? Not urgent.
+
+Kind regards,
+Declan Kennedy
+Lee Valley Accountants",Technical Support,P3,No,480,138,Technical Support,P1,True,True,False
+T0275,2026-10-21 10:22,Blackwater Dairy Co-op,liam.obrien@blackwaterdairy.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the projector PJ-550? We have the SMTP details.
+
+Kind regards,
+Liam O'Brien
+Blackwater Dairy Co-op",Technical Support,P3,No,480,841,Technical Support,P3,False,True,True
+T0276,2026-10-21 11:08,Slaney Hotels,grace.lynch@slaneyhotels.example,Can't connect projector PJ-550 after update,"Hi team,
+
+Since the Windows update last night staff cannot print from their laptops to the projector PJ-550. Some colleagues can still print from the shared PC. Please help this week.
+
+Kind regards,
+Grace Lynch
+Slaney Hotels",Technical Support,P2,No,240,889,Technical Support,P2,False,True,True
+T0277,2026-10-21 11:16,Erne Property Management,sean.murphy@erneproperty.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the network switch NS-24? Not urgent.
+
+Kind regards,
+Seán Murphy
+Erne Property Management",Technical Support,P3,No,480,116,Technical Support,P1,True,True,False
+T0278,2026-10-21 11:33,Nore Building Supplies,darragh.gallagher@norebuild.example,Change delivery address for ORD-56370,"Hi team,
+
+Please change the delivery address on ORD-56370 to our Limerick branch. Thanks.
+
+Kind regards,
+Darragh Gallagher
+Nore Building Supplies",Order/Delivery,P3,No,480,721,Order/Delivery,P3,False,True,True
+T0279,2026-10-21 12:52,Suir Veterinary Practice,padraig.murray@suirvets.example,Invoice and printer issue,"Hi team,
+
+INV-22916 shows a service call we never had. Also our printer is still making noise. Can you look at both?
+
+Kind regards,
+Padraig Murray
+Suir Veterinary Practice",Billing/Invoice,P3,Yes,480,375,Billing/Invoice,P3,False,True,True
+T0280,2026-10-21 12:52,Slaney Hotels,liam.obrien@slaneyhotels.example,Credit note request,"Hi team,
+
+We returned the faulty cable kit on INV-23168. Please issue a credit note.
+
+Kind regards,
+Liam O'Brien
+Slaney Hotels",Billing/Invoice,P3,No,480,602,Billing/Invoice,P3,False,True,True
+T0281,2026-10-21 12:58,Shannon Dental Group,padraig.ryan@shannondental.example,Routine service visit,"Hi team,
+
+Hi, our large-format printer LF-900 at Cork office is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Padraig Ryan
+Shannon Dental Group",Repair/Fault,P3,No,480,419,Repair/Fault,P3,False,True,True
+T0282,2026-10-21 13:31,Blackwater Dairy Co-op,brian.kelly@blackwaterdairy.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the large-format printer LF-900?
+
+Kind regards,
+Brian Kelly
+Blackwater Dairy Co-op",Technical Support,P3,No,480,316,Technical Support,P3,False,True,True
+T0283,2026-10-21 13:36,Lee Valley Accountants,sean.doyle@leevalleyacc.example,Quote request - 2 units of POS terminal PT-80,"Hi team,
+
+We are looking to buy 2 units of the POS terminal PT-80. Could you send a quote with lead times?
+
+Kind regards,
+Seán Doyle
+Lee Valley Accountants",Order/Delivery,P3,No,480,644,Order/Delivery,P3,False,True,True
+T0284,2026-10-21 14:13,Dunmore Pharmacy Group,grace.doyle@dunmorepharmacy.example,Very disappointed with service,"Hi team,
+
+Your engineer missed our appointment twice this month and nobody told us. This is not acceptable. Please call me.
+
+Kind regards,
+Grace Doyle
+Dunmore Pharmacy Group",Complaint,P2,No,240,190,Complaint,P2,True,True,True
+T0285,2026-10-21 14:14,Barrow Auto Parts,aoife.ryan@barrowauto.example,Training for new staff,"Hi team,
+
+Could you run a short training session for 3 new starters on the large-format printer LF-900?
+
+Kind regards,
+Aoife Ryan
+Barrow Auto Parts",Technical Support,P3,No,480,534,Technical Support,P3,False,True,True
+T0286,2026-10-21 14:20,Shannon Dental Group,mark.moore@shannondental.example,multifunction printer MFP-4200 jamming repeatedly,"Hi team,
+
+The multifunction printer MFP-4200 at Dublin head office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Mark Moore
+Shannon Dental Group",Repair/Fault,P2,No,240,459,Repair/Fault,P2,False,True,True
+T0287,2026-10-21 14:31,Barrow Auto Parts,sarah.ryan@barrowauto.example,Remove item from ORD-14442,"Hi team,
+
+Please remove the extra cable kit from ORD-14442, ordered by mistake.
+
+Kind regards,
+Sarah Ryan
+Barrow Auto Parts",Order/Delivery,P3,No,480,760,Order/Delivery,P3,False,True,True
+T0288,2026-10-21 15:04,Wicklow Print & Pack,mark.kelly@wicklowpack.example,Wi-Fi printing question,"Hi team,
+
+Is it possible to print from phones to the multifunction printer MFP-4200? Not urgent.
+
+Kind regards,
+Mark Kelly
+Wicklow Print & Pack",Technical Support,P3,No,480,196,Technical Support,P1,True,True,False
+T0289,2026-10-21 15:11,Atlantic Care Clinics,liam.ryan@atlanticcare.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Liam Ryan
+Atlantic Care Clinics",Complaint,P2,No,240,374,Complaint,P3,True,True,False
+T0290,2026-10-21 15:18,Suir Veterinary Practice,darragh.byrne@suirvets.example,label printer LP-330 jamming repeatedly,"Hi team,
+
+The label printer LP-330 at Cork office jams every few pages. We can use the other unit but it is slowing us down. Could you arrange a repair visit this week?
+
+Kind regards,
+Darragh Byrne
+Suir Veterinary Practice",Repair/Fault,P2,No,240,245,Repair/Fault,P2,False,True,True
+T0291,2026-10-21 15:33,Slaney Hotels,brian.gallagher@slaneyhotels.example,Feedback on last visit,"Hi team,
+
+The engineer left the site untidy and the problem came back after one day. We would like a follow-up visit.
+
+Kind regards,
+Brian Gallagher
+Slaney Hotels",Complaint,P2,No,240,145,Complaint,P3,True,True,False
+T0292,2026-10-21 15:46,Shannon Dental Group,emma.quinn@shannondental.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The POS terminal PT-80 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Emma Quinn
+Shannon Dental Group",Repair/Fault,P1,Yes,60,46,Order/Delivery,P1,True,False,True
+T0293,2026-10-21 15:58,Shannon Dental Group,emma.moore@shannondental.example,Delivery not arrived - ORD-99897,"Hi team,
+
+Order ORD-99897 was due yesterday and has not arrived. We need it before Friday's installation or we will have to reschedule staff. Can you check?
+
+Kind regards,
+Emma Moore
+Shannon Dental Group",Order/Delivery,P2,No,240,195,Order/Delivery,P2,False,True,True
+T0294,2026-10-21 16:00,Slaney Hotels,niamh.obrien@slaneyhotels.example,Streaks on printouts,"Hi team,
+
+Prints from the label printer LP-330 have started to show black streaks. Still usable but not good enough to send to clients. Please advise.
+
+Kind regards,
+Niamh O'Brien
+Slaney Hotels",Repair/Fault,P2,No,240,277,Repair/Fault,P2,False,True,True
+T0295,2026-10-21 16:12,Erne Property Management,padraig.murray@erneproperty.example,label printer LP-330 intermittently offline,"Hi team,
+
+The label printer LP-330 drops offline a few times a day. We restart it and it comes back. Can an engineer take a look?
+
+Kind regards,
+Padraig Murray
+Erne Property Management",Repair/Fault,P2,No,240,2409,Repair/Fault,P2,False,True,True
+T0296,2026-10-21 16:14,Lee Valley Accountants,niamh.mccarthy@leevalleyacc.example,Copy of invoice INV-25030,"Hi team,
+
+Can you resend INV-25030? We cannot find the original.
+
+Kind regards,
+Niamh McCarthy
+Lee Valley Accountants",Billing/Invoice,P3,No,480,621,Billing/Invoice,P3,False,True,True
+T0297,2026-10-21 17:12,Nore Building Supplies,orla.kennedy@norebuild.example,Routine service visit,"Hi team,
+
+Hi, our large-format printer LF-900 at Athlone clinic is due its service. Could you let me know available dates next week?
+
+Kind regards,
+Orla Kennedy
+Nore Building Supplies",Repair/Fault,P3,No,480,714,Repair/Fault,P3,False,True,True
+T0298,2026-10-21 17:19,Shannon Dental Group,sean.doyle@shannondental.example,Re: ticket from Monday,"Hi team,
+
+Still nothing. The document scanner DS-12 is dead and the whole team is standing around. We are losing orders. Need someone today.
+
+Kind regards,
+Seán Doyle
+Shannon Dental Group",Repair/Fault,P1,Yes,60,662,Order/Delivery,P1,True,False,True
+T0299,2026-10-21 17:34,Blackwater Dairy Co-op,padraig.ryan@blackwaterdairy.example,Order status ORD-34732,"Hi team,
+
+Hi, could you tell me where order ORD-34732 is please? No rush.
+
+Kind regards,
+Padraig Ryan
+Blackwater Dairy Co-op",Order/Delivery,P3,No,480,208,Order/Delivery,P3,False,True,True
+T0300,2026-10-21 17:53,Erne Property Management,emma.byrne@erneproperty.example,Scan-to-email setup,"Hi team,
+
+How do I set up scan-to-email on the projector PJ-550? We have the SMTP details.
+
+Kind regards,
+Emma Byrne
+Erne Property Management",Technical Support,P3,No,480,2040,Technical Support,P3,False,True,True
